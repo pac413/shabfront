@@ -1,0 +1,8 @@
+fragment PostLikeFragment on PostLike {
+  id
+  postId
+  likedBy {
+    ...SimpleProfileFragment
+  }
+  date
+}

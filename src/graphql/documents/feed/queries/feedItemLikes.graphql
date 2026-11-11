@@ -1,0 +1,8 @@
+query feedItemLikes($input: FeedItemLikesInput!){
+  feedItemLikes(input: $input) {
+    likes {
+      ...PostLikeFragment
+    }
+    total
+  }
+}

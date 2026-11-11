@@ -1,0 +1,15 @@
+mutation declineHosting(
+  $id: ID!
+  $note: String
+) {
+  declineHosting(
+    input: {
+      id: $id
+      note: $note
+    }
+  ) {
+    hosting {
+      ...HostingFragment
+    }
+  }
+}

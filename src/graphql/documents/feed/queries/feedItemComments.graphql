@@ -1,0 +1,8 @@
+query feedItemComments($input: FeedItemCommentsInput!){
+  feedItemComments(input: $input) {
+    comments {
+      ...PostCommentFragment
+    }
+    total
+  }
+}

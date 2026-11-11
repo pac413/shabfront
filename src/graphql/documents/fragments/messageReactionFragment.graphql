@@ -1,0 +1,8 @@
+fragment MessageReactionFragment on MessageReaction {
+  id
+  reaction
+  reactedBy {
+    ...SimpleProfileFragment
+  }
+  date
+}

@@ -1,0 +1,7 @@
+fragment PictureFragment on Picture {
+  id
+  originalMediaId
+  medium
+  large
+  original
+}

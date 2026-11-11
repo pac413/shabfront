@@ -1,0 +1,7 @@
+mutation deleteCommentOnFeedItem($input: DeleteCommentOnFeedItemInput!) {
+  deleteCommentOnFeedItem(input: $input) {
+    commentId
+    postId
+    total
+  }
+}

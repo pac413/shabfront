@@ -1,0 +1,9 @@
+mutation createLikeOnFeedItem($input: CreateLikeOnFeedItemInput!) {
+  createLikeOnFeedItem(input: $input) {
+    isNew
+    like {
+      ...PostLikeFragment
+    }
+    total
+  }
+}

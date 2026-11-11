@@ -1,0 +1,11 @@
+query adminRecentMemberData($profileId: String!) {
+  adminRecentMemberData(profileId: $profileId) {
+    profile {
+      ...adminRecentMemberFragment
+    }
+    reports {
+      ...ReportFragment
+    }
+    totalMessages
+  }
+}

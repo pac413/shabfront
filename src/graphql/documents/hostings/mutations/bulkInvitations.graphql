@@ -1,0 +1,19 @@
+mutation bulkInvitations(
+  $guests: [ID!]
+  $parts: [HostingPart]!
+  $date: Date!
+  $note: String!
+) {
+  bulkInvitations(
+    input: {
+      guests: $guests
+      parts: $parts
+      date: $date
+      note: $note
+    }
+  ) {
+    hostings {
+      ...HostingFragment
+    }
+  }
+}

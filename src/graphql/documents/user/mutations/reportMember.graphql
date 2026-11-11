@@ -1,0 +1,14 @@
+mutation reportMember($profileId: ID!, $reason: String!, $additionalDetails: String) {
+  reportMember(
+    input: {
+      profileId: $profileId
+      reason: $reason
+      additionalDetails: $additionalDetails
+    }
+  ) {
+    success
+    profile {
+      ...adminRecentMemberFragment
+    }
+  }
+}

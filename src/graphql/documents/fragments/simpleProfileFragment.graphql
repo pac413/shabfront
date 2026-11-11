@@ -1,0 +1,21 @@
+fragment SimpleProfileFragment on SimpleProfile {
+  id
+  avatar {
+    ...AvatarFragment
+  }
+  firstName
+  lastName
+  displayName
+  email
+  phone
+  profileUrl
+  handle
+  isBlocked
+  isBlocking
+  isFollowing
+  occupation
+  primaryLocation {
+    ...LocationFragment
+  }
+  siteRoles
+}

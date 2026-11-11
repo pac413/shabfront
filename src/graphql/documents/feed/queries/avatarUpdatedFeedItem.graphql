@@ -1,0 +1,5 @@
+query avatarUpdatedFeedItem($profileId: ID!) {
+  avatarUpdatedFeedItem(input: { profileId: $profileId }) {
+    ...FeedItemFragment
+  }
+}

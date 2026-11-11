@@ -1,0 +1,22 @@
+mutation requestHosting(
+  $host: ID!
+  $parts: [HostingPart]!
+  $date: Date!
+  $note: String!
+  $privateInviteCode: String
+) {
+  requestHosting(
+    input: {
+      host: $host
+      parts: $parts
+      date: $date
+      note: $note
+      privateInviteCode: $privateInviteCode
+    }
+  ) {
+    hosting {
+      ...HostingFragment
+    }
+  }
+}
+

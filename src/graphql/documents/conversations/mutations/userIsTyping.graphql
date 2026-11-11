@@ -1,0 +1,3 @@
+mutation userIsTyping($conversationId: ID!, $mediaType: MediaType) {
+  userIsTyping(input: { conversationId: $conversationId, mediaType: $mediaType })
+}

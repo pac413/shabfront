@@ -1,0 +1,11 @@
+mutation adminDeleteAvatar($input: AdminDeleteAvatarInput!) {
+  adminDeleteAvatar(input: $input) {
+    __typename
+    ... on Profile {
+      id
+    }
+    ... on Error {
+      message
+    }
+  }
+}

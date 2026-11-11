@@ -1,0 +1,10 @@
+mutation unreportMember(
+  $profileId: ID!
+) {
+  unreportMember (input: { profileId: $profileId }) {
+    success
+    profile {
+      ...adminRecentMemberFragment
+    }
+  }
+}

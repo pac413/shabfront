@@ -1,0 +1,7 @@
+fragment PostViewFragment on PostView {
+  id
+  viewedBy {
+    ...SimpleProfileFragment
+  }
+  date
+}

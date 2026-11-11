@@ -1,0 +1,8 @@
+mutation createLikeOnComment($input: CreateLikeOnCommentInput!) {
+  createLikeOnComment(input: $input) {
+    isNew
+    like {
+      ...PostLikeFragment
+    }
+  }
+}

@@ -1,0 +1,17 @@
+query datingAutoTypeSearch(
+  $keyword: String!,
+  $menOnly: Boolean,
+  $womenOnly: Boolean,
+  $limit: Int!
+) {
+  datingAutoTypeSearch(input: {
+    keyword: $keyword,
+    menOnly: $menOnly,
+    womenOnly: $womenOnly,
+    limit: $limit
+  }) {
+    profiles {
+      ...ProfileFragment
+    }
+  }
+}

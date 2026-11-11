@@ -1,0 +1,75 @@
+/**
+ * Slide transition definitions
+ * Usage:
+ * <transition name="slide">
+ *   ...
+ * </transition>
+ */
+
+.slide-enter-active {
+  transition: all 0.4s;
+}
+
+.slide-enter-from {
+  opacity: 0;
+  margin-right: -30px;
+  margin-left: 30px;
+}
+
+.slide-leave-active {
+  transition: all 0.4s;
+  opacity: 0;
+  margin-right: -30px;
+  margin-left: 30px;
+}
+
+.rtl-at-root {
+  .slide-enter-from {
+    margin-right: 30px;
+    margin-left: -30px;
+  }
+
+  .slide-leave-active {
+    margin-right: 30px;
+    margin-left: -30px;
+  }
+}
+
+/** FADE (in & out) TRANSITION **/
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.4s;
+}
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+/** FADE IN TRANSITION **/
+.fade-in-enter-active {
+  transition: opacity 0.5s;
+}
+.fade-in-enter-from {
+  opacity: 0;
+}
+
+/** SLIDE UP TRANSITION **/
+.slide-up-enter-active {
+  transition: 0.3s cubic-bezier(0, 1, 0.5, 1);
+}
+
+.slide-up-leave-active {
+  transition: 0.3s ease-in;
+}
+
+.slide-up-enter-to,
+.slide-up-leave-from {
+  max-height: 400px;
+  overflow: hidden;
+}
+
+.slide-up-enter-from,
+.slide-up-leave-to {
+  overflow: hidden;
+  max-height: 0;
+}

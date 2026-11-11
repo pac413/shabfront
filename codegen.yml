@@ -1,0 +1,23 @@
+overwrite: true
+hooks:
+  afterOneFileWrite:
+    - "eslint --fix"
+    - "prettier --write"
+
+generates:
+  src/composables/graphql/generated.ts:
+    schema: ${SCHEMA_PATH}
+    documents: 'src/graphql/documents/**/*.graphql'
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-vue-apollo
+    config:
+      withCompositionFunctions: true
+      vueCompositionApiImportFrom: 'vue'
+      declarationKind: interface
+      maybeValue: T | null | undefined
+      immutableTypes: true
+      typesPrefix: I
+      useTypeImports: true
+      skipTypename: true

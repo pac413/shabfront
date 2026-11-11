@@ -1,0 +1,10 @@
+mutation addDatingSiteRole($profileId: ID) {
+  addDatingSiteRole(input: { id: $profileId }) {
+    error {
+      message
+    }
+    profile {
+      ...ProfileFragment
+    }
+  }
+}

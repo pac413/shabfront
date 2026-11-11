@@ -1,0 +1,5 @@
+query hostingById($id: ID!) {
+  hostingById(id: $id) {
+    ...HostingFragment
+  }
+}

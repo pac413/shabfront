@@ -1,0 +1,18 @@
+fragment GuestProfileFragment on GuestProfile {
+  id
+  status
+  availabilitySentence
+  location {
+    city
+    state
+  }
+  guestEndorsements {
+    endorsements {
+      ...EndorsementFragment
+    }
+    total
+  }
+  references {
+    ...ReferenceFragment
+  }
+}

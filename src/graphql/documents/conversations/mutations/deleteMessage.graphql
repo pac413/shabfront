@@ -1,0 +1,5 @@
+mutation deleteMessage($messageId: ID!) {
+  deleteMessage(input: { messageId: $messageId }) {
+    deleted
+  }
+}

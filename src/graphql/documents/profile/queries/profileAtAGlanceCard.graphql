@@ -1,0 +1,23 @@
+query profileAtAGlanceCard {
+  profile {
+    profile {
+      id
+      avatar {
+        ...AvatarFragment
+      }
+      firstName
+      lastName
+      displayName
+      handle
+      wallpaper {
+        ...WallpaperFragment
+      }
+      totals {
+        ...ProfileTotals
+      }
+    }
+    errors {
+      message
+    }
+  }
+}

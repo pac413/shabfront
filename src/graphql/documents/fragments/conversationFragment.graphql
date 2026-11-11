@@ -1,0 +1,21 @@
+fragment ConversationFragment on Conversation {
+  id
+  participants {
+    ...MessageParticipantFragment
+  }
+
+  isBroadcast
+  title
+  initiator {
+    ...SimpleProfileFragment
+  }
+
+  unreadMessagesCount
+
+  lastMessage {
+    ...MessageFragment
+  }
+
+  lastActive
+  updatedAt
+}

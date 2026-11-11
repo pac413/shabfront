@@ -1,0 +1,15 @@
+mutation sendMessageToGuests(
+  $input: SendMessageToGuestsInput!
+) {
+  sendMessageToGuests(input: $input) {
+    __typename
+    ...on SendMessageToGuestsSuccess {
+      success
+      failure
+    }
+    ...on SendMessageToGuestsFailure {
+      message
+    }
+  }
+}
+

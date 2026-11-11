@@ -1,0 +1,14 @@
+query pendingConversations($offset: Int!, $limit: Int!) {
+  pendingConversations(input: { offset: $offset, limit: $limit }) {
+    total
+    conversations {
+      id
+      participants {
+        status
+        profile {
+          ...RequestProfileFragment
+        }
+      }
+    }
+  }
+}

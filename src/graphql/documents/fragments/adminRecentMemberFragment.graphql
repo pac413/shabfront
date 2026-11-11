@@ -1,0 +1,25 @@
+fragment adminRecentMemberFragment on Profile {
+  ...ProfileFragment
+  accountStatus
+  riskAssessment {
+    ipAddress
+    userAgent
+    ipRiskScore
+    minFraudRiskScore
+    location {
+      city
+      cityConfidence
+      country
+      countryConfidence
+    }
+  }
+  isZealot
+  isGreenlight
+  isAdmin
+  profileSettings {
+    hideAllMedia
+  }
+  reportId
+  lastReportedAt
+  loginMethods
+}

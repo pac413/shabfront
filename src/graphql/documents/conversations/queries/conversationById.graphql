@@ -1,0 +1,5 @@
+query conversation($id: ID!) {
+  conversation (input: { id: $id }) {
+    ...ConversationFragment
+  }
+}

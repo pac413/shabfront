@@ -1,0 +1,8 @@
+query messages($conversationId: ID!, $offset: Int!, $limit: Int!) {
+  messages(input: { conversationId: $conversationId, offset: $offset, limit: $limit }) {
+    total
+    messages {
+      ...MessageFragment
+    }
+  }
+}

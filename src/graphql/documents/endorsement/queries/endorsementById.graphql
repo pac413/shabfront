@@ -1,0 +1,7 @@
+query endorsementById($id: ID!) {
+  endorsement(input: { id: $id }) {
+    endorsement {
+      ...EndorsementFragment
+    }
+  }
+}

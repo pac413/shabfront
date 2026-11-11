@@ -1,0 +1,10 @@
+mutation blockProfile($profileId: ID!) {
+  blockProfileV2(profileId: $profileId) {
+    ...on Profile {
+      ...ProfileFragment
+    }
+    ...on Error {
+      message
+    }
+  }
+}

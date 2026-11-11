@@ -1,0 +1,5 @@
+query commentReplyById($input: CommentReplyByIdInput!) {
+  commentReplyById(input: $input) {
+    ...PostCommentReplyFragment
+  }
+}

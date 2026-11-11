@@ -1,0 +1,2187 @@
+{
+  "general": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "submit": "Submit",
+    "save": "Save",
+    "change": "Change",
+    "no": "No",
+    "yes": "Yes",
+    "loading": "Loading",
+    "confirm-delete": "Are you sure you want to delete?",
+    "confirm-dialog-title": "Are you sure?",
+    "scroll-to-top-tooltip": "Scroll to top",
+    "Shabbat": "Shabbat",
+    "no-results": "No results found.",
+    "field-required": "This field is required.",
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
+  "common": {
+    "long-text-wrapper": {
+      "show-more": "show more"
+    }
+  },
+  "enums": {
+    "PersonalityTrait": {
+      "ADVENTUROUS": "Adventurous",
+      "EASYGOING": "Easygoing",
+      "GO_GETTER": "Go getter",
+      "INTENSE": "Intense",
+      "METICULOUS": "Meticulous",
+      "NURTURING": "Nurturing",
+      "PEOPLE_PERSON": "People Person",
+      "PRACTICAL": "Practical",
+      "QUIET": "Quiet",
+      "SENSITIVE": "Sensitive"
+    },
+    "ReligiousAffiliation": {
+      "CONSERVATIVE": "Conservative",
+      "CONSERVADOX": "Conservadox",
+      "CONVERSION": "Conversion",
+      "GENTILE": "Gentile",
+      "ORTHODOX": "Orthodox",
+      "REFORM": "Reform",
+      "RENEWAL": "Renewal",
+      "RECONSTRUCTIONIST": "Reconstructionist",
+      "UNAFFILIATED": "Unaffiliated"
+    },
+    "Hashkafa": {
+      "YESHIVISH": "Yeshivish",
+      "CHASSIDISH": "Chassidish",
+      "MO_MACHMIR": "Mo Machmir",
+      "LIBERAL_MODERN": "Liberal Modern",
+      "TRADITIONAL": "Traditional",
+      "CHABAD": "Chabad"
+    },
+    "EthnicBackground": {
+      "ASHKENAZ": "Ashkenaz",
+      "SEPHARDIC": "Sephardic"
+    },
+    "KeepKosher": {
+      "COMPLETELY": "Completely",
+      "IN_THE_HOME_ONLY": "In The Home Only",
+      "KOSHER_MEAT_ONLY": "Kosher Meat Only",
+      "I_DO_NOT_KEEP_KOSHER": "I Do Not Keep Kosher"
+    },
+    "Frequency": {
+      "DAILY": "Daily",
+      "SEVERAL_TIMES_WEEKLY": "Several Times Weekly",
+      "WEEKLY": "Weekly",
+      "OCCASIONALLY": "Occasionally",
+      "INFREQUENTLY": "Infrequently"
+    },
+    "MaritalStatus": {
+      "NEVER_MARRIED": "Never Married",
+      "DIVORCED": "Divorced",
+      "WIDOWED": "Widowed"
+    },
+    "DatingProfileBodyType": {
+      "A_FEW_EXTRA_POUNDS": "A Few Extra Pounds",
+      "ATHLETIC_FIT": "Athletic Fit",
+      "AVERAGE_MEDIUM_BUILD": "Average Medium Build",
+      "FIRM_TONED": "Firm Toned",
+      "LARGE_BROAD_BUILD": "Large Broad Build",
+      "LEAN_SLENDER": "Lean Slender",
+      "MUSCULAR": "Muscular",
+      "PETITE": "Petite",
+      "PROPORTIONAL": "Proportional"
+    },
+    "Importance": {
+      "NOT_IMPORTANT": "Not Important",
+      "IMPORTANT": "Important",
+      "VERY_IMPORTANT": "Very Important",
+      "NOT_AN_OPTION": "Not An Option",
+      "A_POSSIBILITY": "A Possibility"
+    },
+    "EmploymentStatus": {
+      "FULL_TIME": "Full Time",
+      "PART_TIME": "Part Time",
+      "SELF_EMPLOYED": "Self Employed",
+      "UNEMPLOYED": "Unemployed",
+      "HOMEMAKER": "Homemaker",
+      "RETIRED": "Retired",
+      "WORKS_AT_HOME": "Works At Home",
+      "STUDENT": "Student"
+    },
+    "SecularEducation": {
+      "ELEMENTARY": "Elementary",
+      "HIGH_SCHOOL": "High School",
+      "SOME_COLLEGE": "Some College",
+      "VOCATIONAL_TECHNICAL_TRAINING": "Vocational Technical Training",
+      "ASSOCIATES_DEGREE": "Associates Degree",
+      "BACHELORS_DEGREE": "Bachelors Degree",
+      "MASTERS_DEGREE": "Masters Degree",
+      "LAW_DEGREE": "Law Degree",
+      "MEDICAL_DEGREE": "Medical Degree",
+      "DOCTORAL_PHD": "Doctoral Phd"
+    },
+    "JewishEducation": {
+      "YESHIVA_OR_SEMINARY": "Yeshiva Or Seminary",
+      "SHIURIM_CHAVRUSA": "Shiurim Chavrusa",
+      "ORTHODOX_DAY_SCHOOL": "Orthodox Day School",
+      "HEBREW_SCHOOL": "Hebrew School",
+      "READING": "Reading",
+      "NONE": "None"
+    }
+  },
+  "menu-items": {
+    "profile": {
+      "report-member": "Report Member",
+      "report-member-hint": "Report this member to Shabbat.com admin",
+      "exclude-guest": "Exclude Guest",
+      "exclude-guest-hint": "Exclude guest from requesting hosting",
+      "exclude-guest-description": "By clicking Yes, this guest will not be able to request hosting while you are available to host other guests.",
+      "exclude-guest-success": "All set. Guest has been excluded successfully.",
+      "reinstate-guest": "Reinstate Guest",
+      "reinstate-guest-hint": "Allow guest to request shabbat hosting",
+      "reinstate-guest-description": "Click Yes to reinstate this guest and allow to request Shabbat hosting.",
+      "reinstate-guest-success": "All set. Guest has been reinstated successfully.",
+      "block-member": "Block Member",
+      "unblock-member": "Unblock Member",
+      "block-member-hint": "Blocking prevents all contact between members",
+      "follow": "Follow {firstName}",
+      "follow-hint": "Follow this member posts in your feed",
+      "unfollow": "Unfollow {firstName}",
+      "unfollow-hint": "Unfollow this member posts in your feed",
+      "view-dating-profile": "View Dating Profile"
+    }
+  },
+  "modals": {
+    "report-member": {
+      "title": "Report this member",
+      "body": "Select a reason that applies.",
+      "button": "Report this member",
+      "reason": "Reason",
+      "additional-details": "Additional Details:",
+      "success": {
+        "title": "Report Member",
+        "body": "Member has been successfully reported."
+      },
+      "reason-1": "Inappropriate behavior - harassment or bullying",
+      "reason-2": "Spamming or sending unsolicited messages",
+      "reason-3": "Engaging in Christian missionary work on a Jewish platform",
+      "reason-4": "Posting offensive or inappropriate content",
+      "reason-5": "Fake profile",
+      "reason-6": "Scamming or fraudulent activities",
+      "reason-7": "Threatening or violent behavior",
+      "reason-8": "Uploading inappropriate images or videos",
+      "reason-9": "Engaging in inappropriate behavior during Shabbat meals or lodging. "
+    },
+    "flag-content": {
+      "title": "Flag this content",
+      "body": "To flag this content, enter reason please.",
+      "button": "Flag this content",
+      "reason": "Reason",
+      "reason-required": "Please provide a reason",
+      "success": {
+        "title": "Flag Content",
+        "body": "Content has been successfully flagged."
+      }
+    },
+    "block-member": {
+      "title": "Are you sure you want to block {firstName}?",
+      "body": "You will no longer be connected (if you were before), or see messages or invites from this person. <br/> You will also no longer see any posts, comments or be able to interact with each other.",
+      "success": {
+        "title": "Block Member",
+        "body": "Member has been blocked successfully."
+      }
+    },
+    "restore-account": {
+      "title": "Restore account",
+      "subtitle": "Your account has been deleted.",
+      "body": "To restore this account, please enter your password:",
+      "button": "Restore",
+      "password": "Password",
+      "password-required": "Please provide a password",
+      "success": {
+        "title": "Restore Account",
+        "body": "Account has been successfully restored."
+      },
+      "error": {
+        "password": "Password is incorrect",
+        "unknown": {
+          "title": "Restore Account",
+          "body": "Something went wrong."
+        }
+      }
+    },
+    "sort-options": {
+      "title": "Please select sort order",
+      "apply": "Apply",
+      "proximity": "Proximity",
+      "active-on-shabbat": "Active on Shabbat.com",
+      "first-name-asc": "First Name (ASC)",
+      "first-name-desc": "First Name (DESC)",
+      "last-name-asc": "Last Name (ASC)",
+      "last-name-desc": "Last Name (DESC)",
+      "most-invites": "Most Invites"
+    },
+    "view-blocking": {
+      "title": "Shabbat members I am blocking",
+      "no-members": "No members are blocked",
+      "unblock": "Unblock",
+      "toast": {
+        "title": "Unblock Member",
+        "success": "Member has been unblocked successfully."
+      }
+    }
+  },
+  "contact-view": {
+    "title": "Get in touch with",
+    "title-sub": "Shabbat.com",
+    "greeting": "Whether you have questions or you would just like to<br>say hello, contact us",
+    "footer-line-1": "Note, many issues or questions you might have are<br />addressed on the <a href='https://www.shabbat.com/faq'>Shabbat.com FAQ Page</a>",
+    "footer-line-2": "We'll get back to you in 1-2 business days.",
+    "submit": {
+      "button-text": "Submit",
+      "submitting-text": "Submitting..."
+    },
+    "full-name-group": {
+      "title": "Your Name",
+      "placemarker": "Please enter your full name",
+      "validation-required": "Full Name is required",
+      "validation-alpha": "Full Name is invalid",
+      "validation-min-length": "Full Name must have at least 4 characters."
+    },
+    "email-group": {
+      "title": "Your Email",
+      "placemarker": "Please enter your email",
+      "validation-required": "Valid email is required"
+    },
+    "reason-group": {
+      "title": "Please specify your need",
+      "options": [
+        "Issue with the Shabbat.com website",
+        "Issue with the Shabbat.com app",
+        "Account Assistance",
+        "Profile Remove",
+        "Media Inquiry",
+        "Other"
+      ]
+    },
+    "message-group": {
+      "title": "How can we help you?",
+      "placemarker": "Your message",
+      "validation-required": "Message is required",
+      "validation-min-length": "Message must have at least 4 characters."
+    },
+    "toasts": {
+      "success-message-sent": {
+        "title": "Success!",
+        "message": "Your Message Was Sent"
+      },
+      "error-message-sent": {
+        "title": "Sorry",
+        "message": "We could not send your message. Admin has been notified."
+      }
+    },
+    "success": "Thank you for reaching out. <br> We will respond within 2 business days.",
+    "back": "Back"
+  },
+  "outer-header": {
+    "login": "Login",
+    "register": "Register"
+  },
+  "outer-search": {
+    "mobile-search": "Shabbat.com Search",
+    "find-guests-and-hosts": "Find guests and hosts",
+    "search": "Search",
+    "searchBy": "Search by:",
+    "advancedSearch": "Advanced Search",
+    "all": "All Shabbat.com Members",
+    "people": "People",
+    "locations": "Locations",
+    "occupations": "Occupations",
+    "exploreShabbat": "More options:",
+    "hostsNearby": "Hosts Nearby",
+    "guestsNearby": "Guests Nearby",
+    "recentHosts": "Recent Hosts",
+    "recentGuests": "Recent Guests",
+    "searchAllFor": "Search all {group} for <strong>'{searchTerm}'</strong>",
+    "guestsInLocation": "Guests in {location}",
+    "hostsInLocation": "Hosts in {location}",
+    "singlesInLocation": "Singles in {location}",
+    "noItemsToShow": "No profiles matching your search :(",
+    "typeSomething": "Please type something to search",
+    "loading": "Loading"
+  },
+  "outer-landing-header": {
+    "login": "Login",
+    "donate": "Donate"
+  },
+  "privacy-view": {
+    "title": "Shabbat.com Privacy Policy",
+    "terms-title": "Terms And Conditions",
+    "message": "Please see the English site for terms and conditions."
+  },
+  "outer-footer": {
+    "about": "About",
+    "media": "Media",
+    "blog": "Blog",
+    "contact": "Contact",
+    "terms": "Terms",
+    "faq": "FAQ",
+    "donate": "Donate"
+  },
+  "main-header": {
+    "admin-notice": "You are currently logged into an Admin account. Please <a href='/admin/recent-members'>click here</a> for a description of your capabilities.",
+    "dating-menu": {
+      "title": "Dating",
+      "dating": "Dating Prospects",
+      "matchmaking": "Matchmaking"
+    },
+    "my-shabbat": {
+      "title": "Shabbat",
+      "shabbat-planner": "Shabbat Planner",
+      "shabbat-suggestions": "Shabbat Suggestions",
+      "parsha": "Parsha",
+      "hosting-preferences": "Hosting Preferences"
+    },
+    "profile": {
+      "my-account": "My Account",
+      "view-profile": "View Profile",
+      "edit-profile": "Edit Profile",
+      "settings-privacy": "Settings & Privacy",
+      "contact-us": "Contact Us",
+      "blog": "Blog",
+      "donate-to-shabbat-com": "Donate to Shabbat.com",
+      "log-out": "Log Out",
+      "faq": "FAQ",
+      "friends": "Friends",
+      "feed": "Feed",
+      "message-requests": "Message Requests",
+      "messages": "Messages",
+      "admin": "Admin",
+      "recent-members": "Recent Members",
+      "flagged-contents": "Flagged Contents",
+      "reported-members": "Reported Members",
+      "admin-totals": "Totals"
+    },
+    "message": {
+      "view-in-inbox": "View All",
+      "dismiss-all": "Dismiss All"
+    },
+    "alerts": {
+      "title": "Alerts",
+      "view-details": "View details",
+      "respond": "Respond",
+      "accept": "Accept",
+      "block": "Block",
+      "view-in-inbox": "View All Alerts",
+      "dismiss-all": "Dismiss All"
+    }
+  },
+  "about-view": {
+    "title": "BUILDING A WORLD OF KINDNESS",
+    "about-shabbat": "About Shabbat.com",
+    "lead": "Shabbat.com is a social media platform and a global movement whose mission is to assist Jewish organizations and individuals worldwide with Shabbat hospitality, matchmaking, and employment opportunities free of charge.",
+    "leadership": "Leadership",
+    "advisory-board": "Advisory Board",
+    "team": {
+      "rabbi": {
+        "title": "Founder and CEO",
+        "bio": "The founder of Shabbat.com, Rabbi Klatzko brings over two decades of visionary leadership, staunch support of Israel, and Jewish activism to the project.<br><br>In what at the time was perceived as a bold move, 1999 saw the Klatzko family move to California so that he could accept the position of Campus Rabbi at UCLA. As a hands-on ambassador for the Jewish faith, he reconnected thousands of young Jewish men and women to their heritage. He also made an impressive splash in the broader Jewish community, earning the moniker 'The Hollywood Rabbi.' Some of Hollywood's biggest stars and producers, <br>including cast and staff from Friends, Malcolm in the Middle, Third Rock From the Sun, and Directors and Vice Presidents of Sony, Disney, and Warner Brothers, became regulars at his popular monthly class on Jewish thought.<br><br>Rabbi Klatzko's activities touched-off a revolution that profoundly changed the landscape of North American Jewry. He currently serves as a National Director of College Outreach, overseeing Jewish education throughout North America. He also serves as an lecturer at Yeshiva University and at over 70 different North American colleges and universities each year.<br><br>A person of indefatigable energy, Rabbi Klatzko is also a successful author, cantor, music producer, and Mohel. A noted Judaica art collector, Rabbi Klatzko is the founder of Simcha Art Gallery in New York. His eclectic accomplishments have earned him the admiration of the United States Congress, where he was honored during a live session of House of Representatives as a 'distinguished gentleman making a difference to his community.'<br><br>Rabbi Klatzko was named one of the 28 Most Inspiring Rabbis in America by the Jewish Forward Newspaper in 2014.<br><br>Rabbi Klatzko and his wife Shani and their 11 children currently live in Monsey, New York, where hosting 80 or more people for Shabbos in the norm. He has been at the frontier of improving Jewish communal life in the United States for over two decades."
+      },
+      "kirsten": {
+        "title": "Director of PR",
+        "bio": "Kirsten is from Chatham, New Jersey and currently lives in New York City. <br><br> She graduated New York University in 2018 with a B.A. in Economics and currently works at a hedge fund. She is proud to join Shabbat.com to connect members of the Jewish community around the world at a time when connecting with each other is more important than ever.'"
+      },
+      "tirtza": {
+        "title": "Global Ambassador",
+        "bio": "To know HaShem and to make HaShem known. <br><br> Tirtzas life motto is an expression of her dynamic personality as a young speaker who seeks truth and progressive growth. Currently based in Brazil she is the Global Embassador for Shabbat.com, representing Jewish network outside the United States. <br> <br> She has developed social work focused on Torah teaching among needy communities in Israel and Brazil owing to the fact that she believes 'we cannot live out our legacy without proper knowledge'. She is also a translator for worldwide speakers and has a notable ability translating for numerous conferences. <br> <br> Tirtza attended the Hebrew University of Jerusalem and she is at present attending Medical School where her contribution has instituted relevant progress on medical education. <br> <br> Through her work Shabbat.com is being represented in Spanish speaking countries as well as Portuguese, Hebrew and English."
+      },
+      "yehudah": {
+        "title": "Co-founder and CTO",
+        "bio": "Yehudah Koblick is the CTO and co-founder of Shabbat.com. Yehudah oversees all technical operations and is responsible for the development of its core technology and infrastructure. He was formerly a software engineer and consultant to numerous companies and worked for Mitsubishi Electric Research Laboratories. <br><br> Yehudah Koblick holds a bachelor's degree from Pace University. He received his rabbinic ordination from Rabbi Bezalel Rudinsky. He is the founder of Tribex Technology, a software company focusing on mobile apps."
+      },
+      "lavi": {
+        "title": "",
+        "bio": "Lavi Needleman, a Monsey, N.Y. businessman, heard of Rabbi Benzion Klatzko's visionary dream and was inspired to assist him in getting this unique website off the ground and running! Lavi is a Tree Surgeon & Landscape Designer by day, and in his free time, he continues the innovative educational methods that he started implementing in Israel 20 years ago. <br> <br> After attending Yeshiva University, Lavi spent two years in Israel involved in forming an innovative pilot program at Ohr Someach Israel. This afternoon learning program paired up religious, but not motivated students with Baalei Teshuva who were weak in textual skills but brimming with enthusiasm, thus creating a win/win situation both for those being tutored and for those doing the tutoring. <br> <br> After returning to the U.S., Lavi learned in Yeshivas Mir in Brooklyn and developed a close relationship with Rav Avigdor Miller who lived right next door. In 1995, he and his wife Peshie were members of the kollel in Boca Raton which was the community's successful tryout of a fulltime Kollel. Always looking for unique ways to make a difference, Lavi joined the staff at Camp Moodis where he bonded with and influenced amazing personalities from NASA and other high visibility professionals who were looking for higher meaning in life. <br> <br> Three years ago Lavi became one of the original Monsey Partners in Project Inspire. In conjunction with this, Lavi's out of the box thinking and entrepreneurial spirit led him to develop his own motivational e-group as well as a website which provides people short one page original essays that he authored on major important topics, especially in the field of science and Judaism. <br> <br> Seeing a great void of healthy alternatives, (other than the current baseball and basketball groups) for the religious children in Rockland County, Lavi joined with Rabbi Yehudah Koblick, a co-founder and software developer for this website, and together, they created Yeshiva Hockey Inc, one of the largest sports programs in Monsey where the boys start off each clinic with a Dvar Torah from Coach Yehudah! <br> <br> To round out his interests, Lavi is a devoted husband and father of five, an accomplished ice hockey player, and the self appointed president of the PAPWESBTTIC (People Against People Who Eat Sushi Because They Think It's Cool). When not in the office designing landscapes, he can be found hundreds of feet up in the air as he rappels down the Adirondack Mountains, aiming to keep himself both focused and fit. However, the real brick & mortar of Lavi's day is the nightly class he attends and gives in Jewish Law at Yeshivas Ohr Reuven. <br> <br> Lavi hopes you find this website inspirational as well as useful tool for Jews the world over, to connect!"
+      },
+      "leah": {
+        "title": "Social Media Czar",
+        "bio": ""
+      },
+      "sam": {
+        "title": "Software Strategist",
+        "bio": "Shmuel has been advising Shabbat.com throughout its growth by keeping an eye on users needs and input, ensuring we have the best in user experience. His contributions include advancing our users security preferences and assisting in the functionality behind the dating portion of the site. Shmuel excels at making ideas happen and converts many concepts into reality, such as IlluminateTheWorld.com (a project of Shabbat.com). <br> <br> With an emphasis on business process reengineering, Shmuel helps businesses design and integrate custom software solutions to maximize their efficiency. He operates as a translator between end users/businesses and the programmers/designers who build the software. <br> <br> Shmuel volunteers with Aish Jerusalem and it's world renowned affiliated speakers on updating key presentations about Judaism; keeping them relevant and engaging to new generations. Shmuel moonlights as an EMT and frequently operates as a mentor/counselor on college Israel trips."
+      },
+      "yakov": {
+        "title": "UI Architect",
+        "bio": "Yakov Vershubsky brings his years of experience as a User Interface Architect to shabbat.com in order to ensure that the site is intuitive, easy to use, and attractive, so as to make it accessible and inviting to as many users as possible. <br> <br> As a User Interface Designer & User Experience Consultant for big firms such as Microsoft, LexisNexis, ESPN and other Fortune 500 companies, he gained extensive knowledge and hands-on experience in areas such as Internet marketing, search engine optimization, GUI planning & design, Web 2.0 design & development, landing page design & optimization, and branding and identity. Additionally, Yakov is highly regarded as the industry leader in an area called Design to Convert. <br> <br> Yakov was born in Russia and moved to the United States as a child. He has spent the last ten years of his life traveling to far flung countries, adding languages to his ever growing list while joining and contributing to various Jewish communities around the globe. As a teenager, he spent 2 years volunteering as a full time Big Brother at a Jewish orphanage in Russia. Now he gives back by volunteering for various worthy causes such as shabbat.com, working with youth-at-risk, and by visiting Jewish inmates at various prisons around New York. Currently Yakov works as a UI architect at HugeMedium and does freelance consulting on the side."
+      },
+      "tzipporah": {
+        "title": "Team Coordinator",
+        "bio": ""
+      },
+      "howard": {
+        "title": "",
+        "bio": "Howard S. Jonas is the founder of IDT Corp. This generous philanthropist funds a range of Jewish causes across the ideological spectrum, and has made major investments in Israel as well. <br> <br> Jonas founded IDT Corp. in August 1990 and has served as Chairman of the Board since its inception. <br> <br> Jonas has also served as the Chairman of the Board of Directors of IDT Telecom, Inc. since December 1999 and as a director of IDT Capital, Inc. since September 2004. Jonas served as Co-Chairman of the Board of Directors of IDT Entertainment, Inc. from November 2004 until August 2006. Since August 2006, Jonas has been a director of Starz Media Holdings, LLC, Starz Media, LLC and Starz Foreign Holdings, LLC, each of which is an affiliate of the Company. Jonas is also the founder and has been President of Jonas Publishing since its inception in 1979. Jonas was the Chairman of the Board of Directors of Net2Phone from October 2001 to October 2004, the Vice Chairman of the Board of Directors of Net2Phone from October 2004 to June 2006, and has served as the Chairman since June 2006. <br> <br> Howard Jonas received a B.A. in Economics from Harvard University in 1978."
+      },
+      "reuven": {
+        "title": "",
+        "bio": "As a Systems Architect for Shabbat.com, Reuven Koblick brings several years of technical experience to the table. Mr. Koblick worked for the prestigious Bell Laboratories where he was the Project manager for Unix System V. He also developed Unix to run on Intel and Motorola processors in addition to other innovations for Unix and networking. Reuven Koblick was an active participant in the commercialization of the World Wide Web. He has participated in several standards committees including the IETF (Internet Engineering Task Force) and WWW Consortium. At Mitsubishi Electric, Mr. Koblick was involved in several large scale commercial projects including the development of a network storage backup system which was sold to Veritas (now Symantec) and became their flagship product. He founded Formcentric, an infrastructure tool, and used it to develop several Web Apps. <br> <br> In addition to English, Reuven Koblick speaks fluent French, Spanish, German, Hebrew, Yiddish, and some Japanese. He is an accomplished flamenco guitarist, playing professionally in Spain. Also, a professional ski patrolman, accomplished pilot, and has fought several forest fires with the Crested Butte Hotshots fire team. <br> <br> He lived for several years in Spain and France and obtained a Masters degree in computer science at the University of Paris. <br> <br> Reuven Koblick was a student at Yeshivas Netzach Israel in Jerusalem and studied under the illustrious Torah giant, Harov Israel Gustman, as well as Rabbi Moshe Lipke. <br> <br> Currently he resides in the Boston area and works for Harvard University."
+      },
+      "richard": {
+        "title": "",
+        "bio": "Richard Goldstein is the principal of Goldstein and Associates Realty, Inc., a commercial real estate brokerage firm based in White Plains in Westchester County. He attended the Bronx High School of Science, Brandeis University, and the MBA program of New York University. He is a member of the Board of Directors of the Jewish Home at Rockleigh, located in Rockleigh NJ. He assists the Jewish Education Program of Westchester, Rabbinical Seminary of America in Kew Gardens Hills and is on the advisory board of Shabbat.com."
+      }
+    }
+  },
+  "login-view": {
+    "title": "Welcome Back",
+    "sub-title": "Connect with the world's largest Jewish community.",
+    "please-login-to-perform-action": "Please login to Shabbat.com first, in order to <span class='highlighted'>{action} {actionName}</span>",
+    "actions": {
+      "friend-request": "friend request",
+      "references-request": "references request",
+      "hosting": "hosting",
+      "message-request": "message request",
+      "private-dating-profile-request": "dating profile request",
+      "confirm-email": "email",
+      "host": "Shabbat hosting request",
+      "guest": "Shabbat invite",
+      "messages-by-email-off": "your request to not receive messages via email"
+    },
+    "action-types": {
+      "accept": "accept",
+      "confirm": "confirm",
+      "delete": "delete",
+      "decline": "decline",
+      "respond": "respond to"
+    },
+    "email": "Email address",
+    "email-invalid-message": "Please enter a valid email address",
+    "password": "Password",
+    "password-error": "Please enter your password",
+    "login": "Login",
+    "reset-link": "Reset your password",
+    "remember-me": "Keep me logged in?",
+    "or": "OR",
+    "google-login-btn": "Login with Google",
+    "google-sign-up-btn": "Sign-up with Google",
+    "facebook-login-btn": "Login with Facebook",
+    "facebook-sign-up-btn": "Sign-up with Facebook",
+    "apple-login-btn": "Login with Apple",
+    "apple-sign-up-btn": "Sign-up with Apple",
+    "new-account-txt": "New to Shabbat.com?",
+    "new-account-link": "Join now",
+    "privacy-disclaimer": "By continuing, you are agreeing to <b>Shabbat.com's</b> <a href='/terms' target='_blank'>Terms and Conditions</a>.",
+    "login-error-title": "Error",
+    "login-error-msg": "An error occurred during login. Please try again...",
+    "suspended-error-msg": "Account is suspended please contact <a target='_blank' href='/contact'>support</a> for further information",
+    "login-unauthorized": "Invalid email or password, please try again"
+  },
+  "logout-view": {
+    "logout-progress": "Logging you out..."
+  },
+  "landing": {
+    "main-sentence": "THE WORLD'S LARGEST JEWISH SOCIAL NETWORK",
+    "highlight-1": "<b>Shabbat</b> hosts and guests in 228 countries",
+    "highlight-2": "<b>Jewish Dating</b> over 100,000 singles",
+    "highlight-3": "<b>Jobs, trips, Torah learning</b> and more",
+    "highlight-4": "<b>Its easy & free forever</b>",
+    "new-member-signup": "New Member Signup",
+    "first-name-group": {
+      "placemarker": "First Name",
+      "validation-required": "First Name is required",
+      "validation-alpha": "First Name is invalid"
+    },
+    "last-name-group": {
+      "placemarker": "Last Name",
+      "validation-required": "Last Name is required",
+      "validation-alpha": "Last Name is invalid"
+    },
+    "email-group": {
+      "placemarker": "Email Address",
+      "validation-required": "Valid email is required"
+    },
+    "password-group": {
+      "placemarker": "Password",
+      "validation-required": "Password is required",
+      "validation-min-length": "Password must have at least 6 characters."
+    },
+    "sign-up": "SIGN UP",
+    "processing": "Processing",
+    "terms-p": "We take privacy seriously.",
+    "terms-conditions": "Terms & Conditions",
+    "emailUsed": "Email already used",
+    "internalError": "Something went wrong ",
+    "bottom-sheet": {
+      "title": "Get the full Shabbat.com experience on the app",
+      "description": "Explore our community, host or be hosted, or even find your soulmate.",
+      "button": "Shabbat.com App"
+    }
+  },
+  "register-complete-view": {
+    "welcome": "Welcome {firstName}",
+    "sub-title": "This is all we need to create your profile",
+    "instruction": "We have sent you an email with a confirmation link. <br> Please click on that link to complete your registration.",
+    "ifNotArrived": "if it has not arrived in 5 - 10 minutes then",
+    "clickHere": "click here",
+    "toResent": "to have us resend it to you.",
+    "interests": "Interests",
+    "interestsInShabbat": "Interests in Shabbat.com (select all that apply)",
+    "city": "City",
+    "selectCity": "Select City",
+    "religiousAffiliation": "Religious Affiliation",
+    "title": "Title",
+    "selectTitle": "Select Title",
+    "maritalStatus": "Marital Status",
+    "occupation": "Occupation",
+    "birthday": "Birthday (required for dating, optional otherwise, but recommended as site experience is tailored to your age group)",
+    "socialNetworking": "Social Networking",
+    "shabbatGuest": "Shabbat Guest",
+    "shabbatHost": "Shabbat Host",
+    "dating": "Dating on Shabbat.com",
+    "unableComplete": "Unable to complete a register",
+    "emailHasBeenResent": "The confirmation email has been resent",
+    "resendEmailError": "Unable to resend the confirmation email. Please try later again.",
+    "alreadyConfirmed": "Email has already been confirmed",
+    "userNotExist": "User doesn't exist",
+    "complete": "Complete",
+    "privacy-disclaimer": "By continuing, you are agreeing to <b>Shabbat.com's</b> <a href='/terms' target='_blank'>Terms and Conditions</a>.",
+    "hide-all-media": "Block Pictures and Videos",
+    "hide-all-media-description": "Do not display any pictures or videos in my shabbat.com site experience.",
+    "email-opt-in": "I'd like to be contacted about Jewish learning and travel opportunities"
+  },
+  "reset-password-view": {
+    "title": "Password Reset",
+    "message": "Enter the <b>email address</b>, that you used to register for Shabbat.com. We will email you a link to reset your password.",
+    "input-label": "Email Address",
+    "button-txt": "Submit",
+    "support-message": "If you still need help, contact <a id='password-link-support' target='_blank' href='/contact'>Support</a>.",
+    "set-new-password": "Set New Password",
+    "password-mismatch": "Password mismatch",
+    "enter-new-password": "Enter a new password",
+    "reset-success": "Password has been successfully reset.",
+    "go-to-login-message": "Please navigate to the <a href='/login'>login page</a>",
+    "reset-link-sent": "We have emailed you a password reset link.",
+    "click-link-to-reset": "Please click on that link to reset your password for Shabbat.com",
+    "link-expired": "Your reset password link is expired or invalid. Please try <a href='/reset-password'>again</a>.",
+    "resend-text": "If it has not arrived in 5 - 10 minutes, you can",
+    "resend": "resend",
+    "change-email": "Use different email?",
+    "email-resend": "The reset password email has been resent",
+    "errors": {
+      "auth": {
+        "not-found-user": "User not found."
+      }
+    }
+  },
+  "filter": {
+    "title": "REFINE YOUR SEARCH",
+    "guys-title": "GUYS SEARCH",
+    "girls-title": "GIRLS SEARCH",
+    "scroll-to-view": "(Scroll to view all)",
+    "people": "LOOKING FOR",
+    "people-options": {
+      "All": "All Members",
+      "Host": "Hosts Only",
+      "Guest": "Guest Only",
+      "Single": "Single Only"
+    },
+    "invite": "Shabbat Invites",
+    "available-to-host": "Available to host",
+    "available-for-invites": "Available for invites",
+    "ages": "AGES",
+    "all-ages": "All Ages",
+    "age-range": "Age Range",
+    "from": "from",
+    "to": "to",
+    "religious-affiliation": "RELIGIOUS AFFILIATION",
+    "religious-options": {
+      "all": "All Shabbat.com Members",
+      "orthodox": "Orthodox Only",
+      "non-orthodox": "All Non Orthodox",
+      "conservative": "Conservative Only",
+      "conservadox": "Conservadox Only",
+      "conversion": "In Process of Conversion Only",
+      "gentile": "Curious Gentile Only",
+      "reform": "Reform Only",
+      "renewal": "Renewal Only",
+      "reconstructionist": "Reconstructionist Only",
+      "unaffiliated": "Unaffiliated Only"
+    },
+    "options": "OPTIONS",
+    "recently-active": "Recently Active",
+    "with-pictures-only": "With Pictures Only",
+    "men-only": "Men Only",
+    "women-only": "Women Only",
+    "popular": "Popular",
+    "recent-signups": "Recent Signups",
+    "location": "LOCATION",
+    "all-locations": "All Locations",
+    "proximity-to-me": "Proximity to me",
+    "proximity-to-place": "Proximity to location",
+    "within": "Within",
+    "miles-radius": "Miles Radius",
+    "enter-city": "Enter City",
+    "clear-preferences": "Clear Preferences",
+    "apply-defaults": "Apply Defaults",
+    "with-endorsements": "With Endorsements"
+  },
+  "profile": {
+    "views": "Views",
+    "connections": "Connections",
+    "invites": "Invites",
+    "message": "Message",
+    "dating-options": "Dating Options",
+    "bookmark": "Bookmark",
+    "as-prospect": "as a Dating Prospect",
+    "available-request": "dating profile is available upon request",
+    "request-to-view-dating-profile": "Request to view {firstName}'s dating profile",
+    "about-me": "About Me",
+    "looking-for": "What I am Looking For",
+    "religious-background": "Religious Background",
+    "observance": "Observance",
+    "hashkafa": "Hashkafa",
+    "ethnicity": "Ethnicity",
+    "torah-observant": "Torah observant since",
+    "kosher-status": "Kosher Status",
+    "learn-torah": "I Learn Torah",
+    "pray": "I Pray",
+    "personal-data": "Personal Data",
+    "marital-status": "Marital Status",
+    "age": "Age",
+    "height": "Height",
+    "body-type": "Body Type",
+    "additional-information": "Additional Information",
+    "primary-language": "Primary Language",
+    "secondary-language": "Secondary Language",
+    "living-israel": "Living in Israel",
+    "grew-up": "I Grew Up In",
+    "education": "Education",
+    "employment": "Employment status",
+    "secular": "Secular Education",
+    "highest-jewish": "Highest Jewish Education",
+    "dating-references": "Dating References",
+    "matchmaker": "Matchmaker",
+    "dating-reference": "Dating Reference",
+    "years-old": "years old",
+    "active": "Active: {date}",
+    "since": "Since: {date}",
+    "and": "and",
+    "message-me": "Message Me",
+    "bookmark-prospect": "Bookmark Prospect (or remove)",
+    "bookmarking-prospects": "Bookmarking Prospects",
+    "bookmark-help": "Add a prospect to a dating prospects list. Note, The prospect is NOT informed that you added him or her. You can view your list by selecting the dropdown titled All Prospects and select My Bookmarks.",
+    "email-dating-profile": "Email Dating Profile",
+    "download-dating-profile": "Download Dating Profile",
+    "request-dating-profile": "Request Dating Profile",
+    "complete": "Complete"
+  },
+  "profile-view": {
+    "heading": {
+      "invite-me": "Invite",
+      "invite-me-hint": "Invite {firstName} for Shabbat",
+      "invite-me-disabled": "{firstName} is unavailable for an invitation this week.",
+      "host-me": "Request Hosting",
+      "host-me-hint": "Ask to be a guest for Shabbat",
+      "host-me-disabled": "{firstName} is unavailable to host this week.",
+      "add-friend": "Add Friend",
+      "dating-profile": "Dating Profile",
+      "my-dating-profile": "My Dating Profile",
+      "post-dating-profile": "Post Dating Profile",
+      "edit-profile": "Edit Profile",
+      "send-message": "Send Message",
+      "unfriend": "Unfriend",
+      "block-member": "Block Member",
+      "block-member-posts": "Block all posts from this member",
+      "report-member": "Report Member",
+      "edit-wallpaper": "Edit Wallpaper",
+      "add-avatar": "Add Avatar",
+      "edit-avatar": "Edit Avatar Photo",
+      "more": "More..."
+    },
+    "intro": {
+      "title": "Intro",
+      "view-all": "View All",
+      "more-about": "More about",
+      "coming-soon": "coming soon",
+      "affiliated-with": "Affiliated with",
+      "dating-clause": "View Dating Profile",
+      "hosting": "Hosting: ",
+      "lodging": "Shabbat Lodging",
+      "no-lodging": "No lodging available",
+      "reserve-by": "Requesting reservation by: ",
+      "active": "Active: ",
+      "since": "Since: ",
+      "invites-shabbat": "Invites this Shabbat",
+      "about-placeholder": "tell members about yourself.",
+      "show-more": "Show More",
+      "views": "Views",
+      "friends": "Friends",
+      "cancel-friend-request": "Cancel Friend Request ...",
+      "friend-requested": "Friend Requested ...",
+      "connections": "Connections",
+      "invites": "Invites",
+      "affiliation-CONSERVATIVE": "Jewish: Conservative",
+      "affiliation-CONSERVADOX": "Jewish: Conservadox",
+      "affiliation-CONVERSION": "Conversion",
+      "affiliation-GENTILE": "Gentile",
+      "affiliation-ORTHODOX": "Jewish: Orthodox",
+      "affiliation-REFORM": "Jewish: Reform",
+      "affiliation-RENEWAL": "Jewish: Renewal",
+      "affiliation-RECONSTRUCTIONIST": "Jewish: Reconstructionist",
+      "affiliation-UNAFFILIATED": "Jewish: Unaffiliated"
+    },
+    "nav": {
+      "feed": "Feed",
+      "pictures": "Pictures",
+      "connections": "Connections",
+      "endorsements": "Endorsements",
+      "dating-profile": "Dating Profile",
+      "guest-list": "Guest List",
+      "edit-profile": "Edit Profile"
+    },
+    "encourage-following": {
+      "title": "Do you know {firstName}?",
+      "description": "To chat and see what {firstName} shares with friends you can send a friend request. \n If you are not colleagues, you can still follow {firstName}'s posts."
+    },
+    "host": {
+      "title": "Host Information",
+      "references": "Host References",
+      "no-references": "No host references",
+      "reference-modal-text": "Click below to request an email with names and contact details for this guest's references. <br><br> If approved, you will receive all references added by {firstName}.",
+      "reference-modal-note": "Note: The host will not be notified that their references have been sent.",
+      "reference-modal-button": "Request References",
+      "reference-modal-success": "References request has been sent. If approved, you will receive all references added by {firstName}.",
+      "guestbook": "Guestbook",
+      "inscribe-guestbook": "Inscribe Guestbook",
+      "view-all": "View All",
+      "endorse-back": "Endorse Back",
+      "delete-entry": "Delete Entry",
+      "flag-content": "Flag Content",
+      "edit": "Edit",
+      "view-references": "View Host References",
+      "endorsements": "Host Endorsements",
+      "no-endorsements": "Not host endorsements",
+      "add-endorsement": "Endorse",
+      "add-endorsement-label": "Add endorsement*",
+      "add-endorsement-modal-title": "Post a new host endorsement",
+      "add-endorsement-prompt": "Tell us about your experience at ",
+      "edit-endorsement-modal-title": "Update host endorsement",
+      "ACTIVELY_LOOKING": "Available to host",
+      "AVAILABLE": "Available to host",
+      "UNAVAILABLE_THIS_WEEK": "Unavailable this week",
+      "UNAVAILABLE": "Not available to host",
+      "meals": "Meals available",
+      "no-meals": "Meals not available",
+      "guest-list": "Guest List - {date}",
+      "no-guests": "There are no guests to display for the selected date."
+    },
+    "dating": {
+      "title": "Dating Information",
+      "view-dating-profile": "View Dating Profile",
+      "edit-dating-profile": "Edit Dating Profile Here",
+      "dating-profile": "Dating Profile",
+      "dating-modal-text": "This profile can be viewed by request only. Click the button below to request to view this dating profile.",
+      "dating-modal-button": "Request to View Profile",
+      "endorsements": "Dating Endorsements",
+      "add-endorsement": "Endorse",
+      "add-endorsement-label": "Add endorsement*",
+      "add-endorsement-modal-title": "Post a new dating endorsement",
+      "add-endorsement-prompt": "Enter your endorsement of ",
+      "edit-endorsement-modal-title": "Update dating endorsement",
+      "no-endorsements": "Not dating endorsements",
+      "request-profile": "Request Dating Profile",
+      "view-references": "View Dating References",
+      "references": "Dating References",
+      "no-references": "No dating references",
+      "reference-modal-text": "Click below to request an email with names and contact details for this guest's references. <br><br> If approved, you will receive all references added by {firstName}.",
+      "reference-modal-note": "Note: They will not be notified that their references have been sent.",
+      "reference-modal-button": "Request References",
+      "reference-modal-success": "References request has been sent. If approved, you will receive all references added by {firstName}.",
+      "drop-guy": "Drop Guy",
+      "drop-girl": "Drop Girl"
+    },
+    "guest": {
+      "unknown-availability": "Unknown Availability",
+      "ACTIVELY_LOOKING": "Available for invitations",
+      "AVAILABLE": "Available for invitations",
+      "UNAVAILABLE_THIS_WEEK": "Unavailable this week",
+      "UNAVAILABLE": "Not available",
+      "title": "Guest Information",
+      "guest-endorsements": "Guest Endorsements",
+      "add-endorsement": "Endorse",
+      "add-endorsement-label": "Add endorsement*",
+      "add-endorsement-modal-title": "Post a new guest endorsement",
+      "add-endorsement-prompt": "Enter your endorsement for {firstName}",
+      "add-multiple-endorsements-prompt": "Enter your endorsement for {number} shabbat.com members",
+      "edit-endorsement-modal-title": "Update guest endorsement",
+      "view-references": "View Guest References",
+      "references": "Guest References",
+      "no-references": "No guest references",
+      "endorsements": "Guest Endorsements",
+      "no-endorsements": "Not guest endorsements",
+      "reference-modal-text": "Click below to request an email with names and contact details for this guest's references. <br><br> If approved, you will receive all references added by {firstName}.",
+      "reference-modal-note": "Note: They will not be notified that their references have been sent.",
+      "reference-modal-button": "Request References",
+      "reference-modal-success": "References request has been sent. If approved, you will receive all references added by {firstName}."
+    },
+    "admin": {
+      "title": "Admin",
+      "contact-info": "Contact Information",
+      "phone": "Phone: ",
+      "email": "Email: ",
+      "account-info": "Account Information",
+      "roles": "Roles: ",
+      "user-id": "User Id: ",
+      "has-facebook": "Has login via Facebook enabled: ",
+      "last-login": "Last Login",
+      "manage-in-admin": "Manage in Admin",
+      "restriction-status": "Restriction Status",
+      "allow": "Allow",
+      "restrict": "Restrict",
+      "restricted": "Restricted",
+      "member-good-standing": "Member in good standing",
+      "feed": "Feed Posting",
+      "messaging": "Messaging",
+      "actions": "Actions",
+      "search": "Search",
+      "messagingReq": "Unrestricted Messaging (blocked by default)",
+      "zealot": "Zealot",
+      "admin-notes": "Admin Notes",
+      "admin-data": "Admin Data",
+      "remove": "Remove",
+      "add-action": "Add Action",
+      "add-reminder": "Add Reminder",
+      "post-note": "Post a note ... ",
+      "under-construction": "Please note: This feature is under construction.",
+      "delete-avatar": "Delete avatar"
+    },
+    "modal": {
+      "edit-endorsement": "Update Endorsement",
+      "edit-endorsement-prompt": "Enter endorsement text here",
+      "error-enter-endorsement": "Please enter your endorsement",
+      "add-endorsement-progress": "Endorsement is posting...",
+      "add-endorsement-success": "Endorsement added successfully",
+      "edit-endorsement-progress": "Endorsement is updating...",
+      "edit-endorsement-success": "Endorsement updated successfully",
+      "remove-endorsement": "Remove Endorsement",
+      "remove-endorsement-prompt": "Are you sure to remove this endorsement?",
+      "remove-endorsement-success": "Endorsement removed successfully",
+      "error": "An error has occurred. Please try again.",
+      "avatar-remind-title": "Add a profile avatar",
+      "avatar-remind-text": "Complete your Shabbat.com account by adding your profile avatar.",
+      "do-not-remind": "Do not remind me again",
+      "continue": "Continue...",
+      "photos-title": "My photos",
+      "upload-title": "Upload new"
+    },
+    "general": {
+      "success": "Success!",
+      "progress": "Progress",
+      "error": "Error",
+      "pictures": "Pictures",
+      "upload-picture": "Upload Picture",
+      "upload-video": "Upload Video",
+      "friends": "Friends",
+      "followers": "Followers",
+      "followings": "Following",
+      "connections": "Connections",
+      "n-mutual-friend": "{n} Mutual",
+      "profile-views": "Who viewed this profile",
+      "back": "Back",
+      "update-status": "Update Status",
+      "viewers": "Viewers",
+      "oops": "OOPS!",
+      "profile-not-found": "Error: Profile Not Found",
+      "redirect-home": "This page will be redirecting to Home in ",
+      "sec": "sec",
+      "go-back": "GO BACK",
+      "profile-blocked": "This Shabbat.com member's profile is not available at this time.",
+      "no-endorsements": "There are no endorsements available."
+    },
+    "friends": {
+      "message": "Message",
+      "group-message": "Group Message",
+      "invite": "Invite",
+      "invite-friends": "Group Invite",
+      "select-all": "Select All",
+      "deselect-all": "Deselect All",
+      "add-friend": "Add Friend",
+      "remove-friend-dialog-title": "Remove {fullName} as a friend?",
+      "remove-friend-dialog-body": "Are you sure you want to remove {firstName} as your friend?",
+      "keep-as-friend": "Cancel",
+      "remove-friend": "Confirm",
+      "view-profile": "View Profile",
+      "unfriend": "Unfriend",
+      "cancel-request": "Cancel Request",
+      "accept-request": "Accept Request",
+      "dismiss-request": "Dismiss Request",
+      "block": "Block",
+      "unblock": "Unblock",
+      "no-friends": "No friends to show",
+      "no-followers": "No followers to show",
+      "no-followings": "Not following anyone"
+    },
+    "follower": {
+      "follow": "Follow",
+      "unfollow": "Unfollow"
+    },
+    "pictures": {
+      "title": "Pictures",
+      "edit": "Edit",
+      "flag": "Flag",
+      "add-pictures": "Click here to add photos",
+      "delete-picture": {
+        "title": "Delete Picture",
+        "description": "This picture may contain content from connections including likes and comments about it. <br><br> To delete this picture without deleting its related social content, click '<b>Delete picture only</b>' below.",
+        "delete-all": "Delete",
+        "delete-picture-only": "Delete picture only",
+        "cancel": "Cancel"
+      }
+    },
+    "anonymous-browse": {
+      "disable-title": "Disable Anonymous Browsing",
+      "disable-content": "Shabbat.com anonymous browsing is enabled by default. If you wish to know who has viewed your profile (and enable others to know that you viewed their profile), click 'Disable Anonymous Browsing'.",
+      "enable-title": "Enable Anonymous Browsing",
+      "enable-content": "Click 'Enable Anonymous Browsing' to browse Shabbat.com anonymously. You will not see who has viewed your profile.",
+      "card-prompt": "Click 'Disable Anonymous Browsing' below to see who has viewed your profile.",
+      "no-viewers": "No recent activity to display."
+    }
+  },
+  "profile-edit": {
+    "title": "Edit Profile",
+    "contact-info": {
+      "title": "Contact Info",
+      "full-name": "Full Name",
+      "first-name": "First Name",
+      "last-name": "Last Name",
+      "display-name": "Display Name",
+      "display-name-label": "Your Shabbat.com name",
+      "display-name-description": "(You can override your presented name with a 'display name' below)",
+      "phone-number": "Phone Number",
+      "user-title": "Title",
+      "title-null": "Select title",
+      "title-mr": "Mr.",
+      "title-mrs": "Mrs.",
+      "title-ms": "Ms.",
+      "title-doctor": "Doctor",
+      "title-rabbi": "Rabbi",
+      "location": "Location",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "zipcode": "Zipcode",
+      "country": "Country",
+      "first-name-error": "Please add first name",
+      "last-name-error": "Please add last name",
+      "phone-error": "Invalid phone number",
+      "title-error": "Please select title",
+      "country-error": "Please select country",
+      "state-error": "Please select state",
+      "city-error": "Please select city",
+      "select-country": "Select country"
+    },
+    "about-me": {
+      "title": "About Me",
+      "placeholder": "Enter About Me Text..."
+    },
+    "guest-preferences": {
+      "title": "Guest Preferences",
+      "guest-role": "Shabbat.com Guest",
+      "guest-role-label": "Guest role on Shabbat.com",
+      "availability": "Availability for Shabbat invites",
+      "availability-null": "Select availability",
+      "availability-available": "Available for invites",
+      "availability-unavailable": "Unavailable for invites"
+    },
+    "host-preferences": {
+      "title": "Hosting Preferences",
+      "host-role": "Shabbat.com Host",
+      "host-role-label": "Host role on Shabbat.com",
+      "guest-list-privacy": "Guest List Privacy",
+      "guest-list-privacy-label": "Publicly display my guest list",
+      "availability": "Availability For Hosting",
+      "availability-null": "Select availability",
+      "availability-available": "Available for hosting",
+      "availability-unavailable": "Unavailable for hosting",
+      "preference": "Hosting Preferences",
+      "reserve-by": "Guests must reserve by",
+      "reserve-by-MONDAY": "Monday",
+      "reserve-by-TUESDAY": "Tuesday",
+      "reserve-by-WEDNESDAY": "Wednesday",
+      "reserve-by-THURSDAY": "Thursday",
+      "reserve-by-FRIDAY": "Friday",
+      "reserve-by-SUNDAY": "Sunday",
+      "reserve-by-LAST_MINUTE": "Last Minute",
+      "meals-amount": "Guest meals amount",
+      "meals-amount-no-meal": "No Meal Guests",
+      "sleep-amount": "Guest sleep amount",
+      "sleep-amount-no-sleeping": "No Sleeping Guests",
+      "option-unlimited": "Unlimited",
+      "available-to-host-men": "Available to host men",
+      "available-to-host-women": "Available to host women",
+      "available-to-host-families": "Available to host families with children",
+      "available-to-host-afilliated-jews": "Available to host Afilliated Jews",
+      "available-to-host-unafilliated-jews": "Available to host Unafilliated Jews",
+      "unavailable-to-host-guests": {
+        "title": "Not Available To Host These Guests",
+        "description": "As a host, you can exclude specific guests from being able to request hosting for Shabbat. Simply enter the first or last name of the guest you wish to exclude and select their entry. Once selected, these guests will not be able to request hosting.",
+        "search-placeholder": "Search for guests by name"
+      },
+      "private-invites": {
+        "title": "Private Hosting",
+        "label": "Require guests to enter a passcode when requesting Shabbat hosting.",
+        "passcode": "Passcode:",
+        "regenerate": "Regenerate Code"
+      }
+    },
+    "dating-preferences": {
+      "title": "Dating Preferences",
+      "dating-role": "Shabbat.com Dating",
+      "dating-role-label": "I am available for dating",
+      "privacy": "Dating Profile Privacy",
+      "privacy-private": "Viewable upon request only",
+      "privacy-public": "Viewable to the public",
+      "dating-role-warning": "In order to be eligible for dating, you must provide your birthday <a href='{link}'>here</a>."
+    },
+    "relationship": {
+      "title": "Relationship",
+      "relationship-status": "Status",
+      "marital-status-title": "Marital Status",
+      "marital-status-null": "Select marital status",
+      "marital-status-single-without-children": "Single (without children)",
+      "marital-status-single-with-children": "Single (with children)",
+      "marital-status-married-without-children": "Married (without children)",
+      "marital-status-married-with-children": "Married (with children)",
+      "children-at-home": "Children At Home",
+      "spouse-first-name": "Spouse First Name",
+      "marital-status-error": "Please select a marital status"
+    },
+    "personal-info": {
+      "title": "Personal Info",
+      "birthday": "Birthday",
+      "delete-birthday": "Delete Birthday",
+      "delete-birthday-warning": "By removing your birthdate your account cannot use the dating features of Shabbat.com. Do you still wish to proceed?",
+      "gender": "Gender",
+      "gender-male": "Male",
+      "gender-female": "Female",
+      "occupation": "Occupation",
+      "occupation-null": "Select occupation",
+      "organization": "Organization",
+      "religious-affiliation": "Religious Affiliation",
+      "religious-affiliation-null": "Select religious affiliation",
+      "conservative": "Conservative",
+      "conservadox": "Conservadox",
+      "conversion": "In Process of Conversion",
+      "gentile": "Curious Gentile",
+      "orthodox": "Orthodox",
+      "reform": "Reform",
+      "renewal": "Renewal",
+      "reconstructionist": "Reconstructionist",
+      "unaffiliated": "Unaffiliated",
+      "gender-error": "Please select gender",
+      "occupation-error": "Please add occupation",
+      "religious-affiliation-error": "Please select religious affiliation",
+      "birthday-invalid": "Please select valid birthday"
+    },
+    "references": {
+      "title": "References",
+      "add": "Add Reference",
+      "add-modal-title": "Add a new reference",
+      "edit-modal-title": "Edit reference",
+      "delete-modal-title": "Delete reference",
+      "name-label": "Reference Full Name - REQUIRED",
+      "name-placeholder": "Full Name",
+      "email-label": "Reference Email",
+      "email-placeholder": "Email",
+      "phone-label": "Reference Phone Number",
+      "phone-placeholder": "Phone Number",
+      "relationship-label": "Relationship",
+      "site-role-label": "Reference For: REQUIRED",
+      "name-error": "Please add name",
+      "site-role-error": "Please select site role",
+      "guest": "Guest Reference",
+      "host": "Host Reference",
+      "dating": "Dating Reference",
+      "email-phone-required": "At least one of email or phone number is required"
+    },
+    "account-settings": {
+      "title": "Account Settings",
+      "email": "Email Address",
+      "email-label": "Your email address is also your user name. All site emails are sent to this address.",
+      "update-email": "Update Email",
+      "password": "Password",
+      "password-label": "Password",
+      "change-password": "Change Password",
+      "suspend-account-title": "Suspend Account (NOT YET IMPLEMENTED)",
+      "suspend-account-label": "Suspend my Shabbat.com account",
+      "suspend-my-account": "Suspend My Account",
+      "delete-account-title": "Delete Account",
+      "delete-account-label": "Delete my Shabbat.com account",
+      "delete-my-account": "Delete My Account",
+      "email-error": "Invalid email address",
+      "update-email-success": "Your email has been updated. Please log in again.",
+      "update-email-failure": "Failed to update your account email.",
+      "change-password-success": "Your account password has been updated. Please log in again.",
+      "delete-account-confirmation-title": "Delete Account",
+      "delete-account-confirmation-description": "To completely delete your account on Shabbat.com, confirm below.",
+      "delete-account-success": "Your account is successfully deleted.",
+      "delete-account-failure": "Failed to delete your account."
+    }
+  },
+  "dating-profile-edit": {
+    "title": "Edit Dating Profile",
+    "select-one": "Select One",
+    "background": {
+      "title": "Jewish Background",
+      "hashkafa": "Hashkafa",
+      "YESHIVISH": "Yeshivish",
+      "CHASSIDISH": "Chassidish",
+      "MO_MACHMIR": "Mo Machmir",
+      "LIBERAL_MODERN": "Liberal Modern",
+      "TRADITIONAL": "Traditional",
+      "CHABAD": "Chabad",
+      "torah-observant-since": "Torah Observant Since",
+      "ethnic-background": "Ethnic Background",
+      "ASHKENAZ": "Ashkenaz",
+      "SEPHARDIC": "Sephardic",
+      "primary-language": "Primary Language",
+      "secondary-language": "Secondary Language",
+      "language": {
+        "en": "English",
+        "he": "Hebrew",
+        "es": "Spanish",
+        "yi": "Yiddish",
+        "ru": "Russian",
+        "fr": "French",
+        "fa": "Persian_Farsi",
+        "ar": "Arabic",
+        "bg": "Bulgarian",
+        "ch": "Chinese",
+        "hr": "Croatian",
+        "cs": "Czech",
+        "da": "Danish",
+        "nl": "Dutch",
+        "fi": "Finnish",
+        "de": "German",
+        "el": "Greek",
+        "hi": "Hindi",
+        "hu": "Hungarian",
+        "it": "Italian",
+        "jp": "Japanese",
+        "ko": "Korean",
+        "no": "Norwegian",
+        "pl": "Polish",
+        "pt": "Portuguese",
+        "pa": "Punjabi",
+        "ro": "Romanian",
+        "sv": "Swedish",
+        "th": "Thai",
+        "uk": "Ukrainian"
+      },
+      "living-in-israel": "Living In Israel",
+      "NOT_IMPORTANT": "Not Important",
+      "IMPORTANT": "Important",
+      "VERY_IMPORTANT": "Very Important",
+      "NOT_AN_OPTION": "Not An Option",
+      "A_POSSIBILITY": "A Possbility",
+      "personality-trait1": "Personality Trait 1",
+      "personality-trait2": "Personality Trait 2",
+      "ADVENTUROUS": "Adventurous",
+      "EASYGOING": "Easygoing",
+      "GO_GETTER": "Go Getter",
+      "INTENSE": "Intense",
+      "METICULOUS": "Meticulous",
+      "NURTURING": "Nurturing",
+      "PEOPLE_PERSON": "People Person",
+      "PRACTICAL": "Practical",
+      "QUIET": "Quiet",
+      "SENSITIVE": "Sensitive",
+      "plan-on-wearing-skirts": "I plan on wearing skirts",
+      "plan-on-covering-my-hair": "I plan on covering my hair"
+    },
+    "personal-details": {
+      "title": "Personal Details",
+      "height": "Height",
+      "body-type": "Body Type",
+      "A_FEW_EXTRA_POUNDS": "A Few Extra Pounds",
+      "ATHLETIC_FIT": "Athletic Fit",
+      "AVERAGE_MEDIUM_BUILD": "Average Medium Build",
+      "FIRM_TONED": "Firm Toned",
+      "LARGE_BROAD_BUILD": "Large Broad Build",
+      "LEAN_SLENDER": "Lean Slender",
+      "MUSCULAR": "Muscular",
+      "PETITE": "Petite",
+      "PROPORTIONAL": "Proportional",
+      "marital-status": "Marital Status",
+      "NEVER_MARRIED": "Never Married",
+      "DIVORCED": "Divorced",
+      "WIDOWED": "Widowed",
+      "am-smoker": "I am a Smoker",
+      "keep-kosher": "Keep Kosher",
+      "COMPLETELY": "Completely",
+      "IN_THE_HOME_ONLY": "In The Home Only",
+      "KOSHER_MEAT_ONLY": "Kosher Meat Only",
+      "I_DO_NOT_KEEP_KOSHER": "I Do Not Keep Kosher",
+      "torah-learning": "Torah Learning",
+      "DAILY": "Daily",
+      "SEVERAL_TIMES_WEEKLY": "Several Times Weekly",
+      "WEEKLY": "Weekly",
+      "OCCASIONALLY": "Occasionally",
+      "INFREQUENTLY": "Infrequently",
+      "prayer": "Prayer"
+    },
+    "education": {
+      "title": "Education",
+      "employment-status": "Employment Status",
+      "FULL_TIME": "Full Time",
+      "PART_TIME": "Part Time",
+      "SELF_EMPLOYED": "Self Employed",
+      "UNEMPLOYED": "Unemployed",
+      "HOMEMAKER": "Homemaker",
+      "RETIRED": "Retired",
+      "WORKS_AT_HOME": "Works At Home",
+      "STUDENT": "Student",
+      "secular-education": "Secular Education",
+      "ELEMENTARY": "Elementary",
+      "HIGH_SCHOOL": "High School",
+      "SOME_COLLEGE": "Some College",
+      "VOCATIONAL_TECHNICAL_TRAINING": "Vocational Technical Training",
+      "ASSOCIATES_DEGREE": "Associates Degree",
+      "BACHELORS_DEGREE": "Bachelors Degree",
+      "MASTERS_DEGREE": "Masters Degree",
+      "LAW_DEGREE": "Law Degree",
+      "MEDICAL_DEGREE": "Medical Degree",
+      "DOCTORAL_PHD": "Doctoral PhD",
+      "jewish-education": "Jewish Education",
+      "YESHIVA_OR_SEMINARY": "Yeshiva Or Seminary",
+      "SHIURIM_CHAVRUSA": "Shiurim Chavrusa",
+      "ORTHODOX_DAY_SCHOOL": "Orthodox Day School",
+      "HEBREW_SCHOOL": "Hebrew School",
+      "READING": "Reading",
+      "NONE": "None"
+    },
+    "matchmaker": {
+      "title": "Matchmaker",
+      "handle-my-dating-inquiries": "I Handle my Dating Inquiries",
+      "matchmaker-full-name": "Matchmaker Full Name",
+      "matchmaker-email": "Matchmaker Email",
+      "matchmaker-email-error": "Please enter a valid email address"
+    },
+    "personal-description": {
+      "title": "Personal Description",
+      "about-me": "Write a short paragraph that describes you",
+      "placeholder": "Write at least a short paragraph that best describes you"
+    },
+    "looking-for": {
+      "title": "Looking For",
+      "looking-for": "What are you looking for in a spouse?",
+      "placeholder": "What are you looking for in a spouse?"
+    },
+    "privacy-settings": {
+      "title": "Privacy Settings",
+      "dating-profile-visibility": "Dating Profile Visibility",
+      "to-everyone": "To Everyone",
+      "available-upon-request": "Available Upon Request"
+    }
+  },
+  "sticky-subheader": {
+    "dating-title": "Shabbat.com Dating Prospects",
+    "search-title": "Search Results:",
+    "matchmaking-title": "Shabbat.com Matchmaking",
+    "bookmarks": "Bookmarks",
+    "matchmaking": "Matchmaking",
+    "sort-by": "Sort By",
+    "narrow-your-search": "Refine",
+    "filter-guys": "Filter Guys...",
+    "filter-girls": "Filter Girls...",
+    "select-all": "Select All",
+    "unselect-all": "Unselect All",
+    "invite-selected": "Invite Selected",
+    "message-selected": "Message Selected",
+    "view-as": "View As:"
+  },
+  "advances-search-view": {
+    "title": "Advanced Search",
+    "search": "Search",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "role": "Role",
+    "people": "People",
+    "places": "Places",
+    "nearThisLocation": "Near this location",
+    "organization": "Organization",
+    "occupation": "Occupation",
+    "members-nearby": "Members Nearby",
+    "hosts-nearby": "Hosts Nearby",
+    "guests-nearby": "Guests Nearby",
+    "singles-nearby": "Singles Nearby",
+    "recent-hosts": "Recent Hosts",
+    "recent-guests": "Recent Guests",
+    "members-in": "Members in {value}",
+    "members-with-occupation": "Members with occupation: {value}",
+    "members-with-name-containing": "Members with name containing: {value}",
+    "hosts": "Hosts",
+    "guests": "Guests",
+    "singles": "Singles",
+    "all": "All",
+    "locationType": "Location type",
+    "geocode": "Geocode",
+    "establishment": "Establishment",
+    "startTyping": "Start typing"
+  },
+  "matchmaking-view": {
+    "drop-guy-here": "Drop Guy Here",
+    "drop-girl-here": "Drop Girl Here",
+    "make-a-match": "Make a Match!",
+    "clear": "Clear",
+    "gender-mismatch-error": "Gender doesn't match!",
+    "modal-title": "Make a Match",
+    "modal-description": "Create a dating suggestion between the selected prospects.",
+    "modal-close": "Close",
+    "modal-complete-match": "Complete Match",
+    "modal-suggestion-label": "Who should the suggestion be sent to:",
+    "modal-suggestion-placeholder": "Please select an option",
+    "modal-suggestion-both-prospects": "Both prospects",
+    "modal-note-label": "Include a note...",
+    "select-guy-girl-error": "Please select guy and girl first",
+    "matchmaking-saved-success": "Great, your suggested match has been created and sent to your selected prospects."
+  },
+  "messages": {
+    "header-title": "Conversation with {name}",
+    "archive-conversation-title": "Archive conversation",
+    "archive-conversation-description": "Confirm you wish to archive your conversation with <strong>{name}</strong>?",
+    "archive-broadcast-conversation-title": "Archive broadcast conversation",
+    "archive-broadcast-conversation-description": "Confirm you wish to archive your broadcast conversation?",
+    "view-participants-button-tooltip": "View participants",
+    "private-indicator": "Your message will only be seen to {name}",
+    "direct-message": "Message",
+    "unread-messages": "{count} Unread Messages",
+    "delete-message-title": "Delete message",
+    "delete-message-description": "Do you really want to delete this message?",
+    "type-your-message": "{name}, type your message",
+    "calendar-last-week": "[Last] dddd",
+    "calendar-last-day": "[Yesterday]",
+    "calendar-same-day": "[Today]",
+    "add-emoji": "Add Emoji",
+    "upload-image": "Upload Image",
+    "upload-video": "Upload Video",
+    "start-recording": "Start audio",
+    "stop-recording": "Stop audio and upload",
+    "discard-recording": "Discard audio",
+    "microphone-permission-error-title": "Permission Error",
+    "microphone-permission-error": "Grant Shabbat.com access to your microphone",
+    "new-image-processing": "New image processing…",
+    "new-video-processing": "New video processing…",
+    "recording-audio": "{firstName} is recording a voice message",
+    "uploading-image": "{firstName} is uploading an image",
+    "uploading-video": "{firstName} is uploading a video",
+    "typing": "{firstName} is typing",
+    "new-message": "New Message",
+    "search-conversations": "Search conversations",
+    "accept": "Accept",
+    "reject": "Reject",
+    "request-text": "<strong>{firstName}</strong>&nbsp;has requested a conversation with you.",
+    "rejected-by-opponent-simple": "Rejected",
+    "pending-by-opponent": "Waiting for <strong>{firstName}</strong> to accept invitation.",
+    "rejected-by-opponent": "<strong>{firstName}</strong> has declined your message request.<br> <strong>{firstName}</strong> will not receive your messages.",
+    "menu-delete": "Delete",
+    "menu-info": "Info",
+    "menu-reply": "Respond privately",
+    "message-sent": "Message sent",
+    "message-read": "Message read",
+    "message-unread": "Unread",
+    "react": "React"
+  },
+  "message-requests": {
+    "title": "Shabbat Message Requests",
+    "delete": "Delete",
+    "accept": "Accept",
+    "noMessageRequests": "No Message Requests",
+    "messageRequest": "Message Request"
+  },
+  "invites": {
+    "general": {
+      "requests": "Requests",
+      "invitations": "Invites",
+      "role": "Role",
+      "coming-alone-for-shabbat": "is coming for Shabbat",
+      "multiple-coming-for-shabbat": "and <strong>{number} others</strong> are invited for Shabbat"
+    },
+    "modal": {
+      "undefined-title": "Loading...",
+      "INVITATION-title": "Invite {name}",
+      "REQUEST-title": "Request Hosting at {name}",
+      "bulk-invite-title": "Invite {size} selected guests",
+      "host-request-title": "Hosting Request from {name}",
+      "guest-request-title": "Hosting Request sent to {name}",
+      "host-invitation-title": "Invitation sent to {name}",
+      "guest-invitation-title": "You're invited to {name}",
+      "invitation-pending-status": "Awaiting guest response",
+      "request-pending-status": "Awaiting host response",
+      "pending-status": "Please respond below!",
+      "declined-status": "Declined",
+      "accepted-status": "Accepted",
+      "status": "Status:",
+      "customize": "More Options...",
+      "hide-customize": "Hide Options...",
+      "expired-status": "Expired Request",
+      "guest-endorsements": "Guest Endorsements",
+      "host-endorsements": "Host Endorsements",
+      "guest-references": "Guest References",
+      "host-references": "Host References",
+      "expired-date-past": "This invitation's date has passed",
+      "host-contact-details": "Host Contact Details",
+      "guest-contact-details": "Guest Contact Details",
+      "directions-to": "Directions to {name}",
+      "more-about": "More about {name}",
+      "view-more": "View More...",
+      "date": "Date",
+      "meals": "Meals",
+      "uncheck-all": "Uncheck All",
+      "select-all": "Select All",
+      "lodging": "Lodging",
+      "message-title": "Message",
+      "request-hosting-message-required": "Message is required. Please add your invitation message to your host",
+      "invite-guest-message-required": "Message is required. Please add your invitation message to your guest",
+      "include-note": "Include Note",
+      "message-placeholder": "Add your invitation message here...",
+      "post-to-feed": "Post to Feed",
+      "INVITATION-send-btn": "Send Invite!",
+      "REQUEST-send-btn": "Send Request",
+      "submitting": "Submitting...",
+      "accept": "Accept",
+      "decline": "Decline",
+      "send-message": "Send Message",
+      "invitation-success": "Your invite was sent successfully.",
+      "request-success": "Your request was sent successfully.",
+      "expired": "Expired",
+      "partially-accept": "Select Available Options",
+      "missing-phone-title": "Phone Number (required):",
+      "missing-phone-message": "Your phone number is required for invites, please provide it below. It will be added to your profile information and remain private.",
+      "missing-phone-privacy-message": "Note: Your phone number is kept private until both the host and guest confirm.",
+      "host-hostings": "Recent Guests",
+      "guest-hostings": "Recent Hosts",
+      "no-recent-hostings": "There are no recent hostings to display.",
+      "hosting-request-label": "Request Hosting",
+      "invitation-label": "Invite",
+      "host-unavailable": "This host is unavailable on the date you've selected. Please select another date.",
+      "update-role-title": "Update your settings",
+      "update-role-explanation-HOST": "In order to host, please enable above, or <a href='{link}'>edit your profile </a> to continue.",
+      "update-role-explanation-GUEST": "In order to request hosting, please enable above, or <a href='{link}'>edit your profile </a> to continue.",
+      "has-existing-hosting-for-selected-date": "An invitation already exists for the selected date. Please select another date.",
+      "no-meals-for-selected-date": "Meals and sleeping are not available for your selected date. Therefore it is not possible to request hosting. Please select another date.",
+      "request-accepted": "{type} has been successfully accepted.",
+      "request-declined": "{type} has been successfully declined.",
+      "hosting-request": "Hosting request",
+      "invitation-request": "Invitation request",
+      "guests-list-title": "Guests",
+      "send-message-to-one-guest": "Send message to a guest",
+      "send-message-to-n-guests": "Send message to {count} guests",
+      "send-message-to-guests-placeholder": "Add your message to guests here...",
+      "send-message-to-n-guests-success": "Successfully sent message to {count} guests",
+      "send-message-to-one-guest-success": "Successfully sent message to a guest",
+      "send-message-to-guests-toast-title": "Send message to guests",
+      "request-warning": "It is common that a Host may not see or reply to a request. Shabbat.com recommends requesting from multiple hosts for Shabbat to ensure you secure a place."
+    },
+    "hosting-part": {
+      "NIGHT": "Night",
+      "DAY": "Day",
+      "THIRD": "Third Meal",
+      "MELAVE_MALKA": "Melave Malka",
+      "LODGING": "Lodging"
+    },
+    "hosting-role": {
+      "GUEST": "Guest",
+      "HOST": "Host"
+    },
+    "private-invite-modal": {
+      "title": "Enter passcode",
+      "description": "{name} requires a 4 digit passcode to request hosting. Please enter the code provided to you by the host.",
+      "wrong-passcode": "Wrong Passcode!"
+    }
+  },
+  "shabbat-suggestions": {
+    "view-more": "view more",
+    "titles": {
+      "hosts": "Suggested Hosts",
+      "guests": "Suggested Guests",
+      "dating": "Dating Suggestions",
+      "popular-hosts": "Popular Hosts",
+      "similar-occupations-hosts": "Hosts With Similar Occupations",
+      "similar-occupations-guests": "Guests With Similar Occupations"
+    }
+  },
+  "planner": {
+    "title": "My Shabbat",
+    "sub-title": "Find a host. Invite a guest. Plan your Shabbat and holidays here!",
+    "previous": "Previous",
+    "next": "Upcoming",
+    "requested-hosting": "Requested hosting for ",
+    "invited-for": "Invited for ",
+    "no-invites-or-requests-HOST": "There are no hosting requests pending your response.",
+    "no-invites-or-requests-GUEST": "There are no invitations pending your response.",
+    "add-hosting-role-to-access-planner": "You must be registered as a guest or host in order to view the Shabbat Planner.",
+    "please-adjust-to-continue": "Edit your profile to continue.",
+    "HOST-grid-title": "Guest List",
+    "GUEST-grid-title": "Host List",
+    "HOST-no-items": "There are no guests for the selected week.",
+    "GUEST-no-items": "There are no hosts for the selected week.",
+    "view-by": "View By: ",
+    "sort-status": "Sort By Status",
+    "sort-meal": "Sort By Meal",
+    "row-ACCEPTED": "Confirmed",
+    "row-DECLINED": "Declined",
+    "row-PENDING": "Pending",
+    "row-NIGHT": "Night Meal",
+    "row-DAY": "Day Meal",
+    "row-THIRD": "Third Meal",
+    "row-LODGING": "Lodging",
+    "row-MELAVE_MALKA": "Melave Malka",
+    "item-ACCEPTED-HOST": "Confirmed",
+    "item-DECLINED-HOST": "Not Attending",
+    "item-PENDING-HOST": "Pending",
+    "item-ACCEPTED-GUEST": "Confirmed",
+    "item-DECLINED-GUEST": "Not Available",
+    "item-PENDING-GUEST": "Pending",
+    "send-message": "Send Message",
+    "message-selected": "Message Selected",
+    "endorse-selected": "Endorse Selected",
+    "message-all": "Message All",
+    "confirmed-total": "({total} Confirmed)",
+    "inbox-HOST": "Hosting Requests",
+    "inbox-GUEST": "Invitations",
+    "zmanim": "Zmanim",
+    "zmanim-add-location": "Note: Zmanim could not be retrieved for your profile location. To update your location please",
+    "you-are-currently-HOST": "You are a <b>host</b>.",
+    "you-are-currently-GUEST": "You are a <b>guest</b>.",
+    "change-preferences": "<a href='{link}'>Change your preferences</a>",
+    "swap-role-from-HOST": " or <a>switch to a guest</a>",
+    "swap-role-from-GUEST": " or <a>switch to a host</a>",
+    "send-or-cancel": "Send/Cancel",
+    "suggestions": "Suggestions",
+    "suggestions-for-GUEST": "Suggested Hosts",
+    "suggestions-for-HOST": "Suggested Guests",
+    "preferences": "Preferences",
+    "preferences-by-date": "Hosting Preferences",
+    "edit-preferences": "Edit Preferences",
+    "show-hide-preferences": "Edit Preferences...",
+    "preferences-help-text": "Note: These preferences apply to the selected date only. To update your general preferences please",
+    "edit-profile-link-text": "edit your profile.",
+    "coming-soon": "Coming soon... ",
+    "preferences-additional-help-text": "For additional hosting preferences navigate to your global hosting preferences here"
+  },
+  "friends": {
+    "title": "Shabbat Friend Requests",
+    "delete": "Delete",
+    "accept": "Accept",
+    "noFriendRequests": "Sorry, no friend requests yet",
+    "friendRequest": "Friend Request"
+  },
+  "action": {
+    "friend": {
+      "accepted": "{name} has been added as a friend",
+      "deleted": "Friend request from {name} has been deleted"
+    },
+    "hosting": {
+      "date-template": "dddd, MMMM Do YYYY",
+      "invitation-accepted": "Invitation from {name} on {date} accepted",
+      "request-accepted-progress": "Accepting...",
+      "request-accepted": "Hosting request from {name} on {date} accepted",
+      "invitation-declined": "invitation from {name} on {date} declined",
+      "request-declined-progress": "Declining...",
+      "request-declined": "Hosting request from {name} on {date} declined"
+    },
+    "references": {
+      "accepted": "References request from {name} was accepted",
+      "deleted": "References request from {name} was deleted"
+    },
+    "message": {
+      "accepted": "Message request from {name} was accepted",
+      "deleted": "Message request from {name } was deleted",
+      "accept-error": "Cannot accept message request",
+      "delete-error": "Cannot delete message request"
+    },
+    "dating-profile": {
+      "request": "Request has been sent successfully",
+      "request-exists": "Request already exists",
+      "request-error": "Request failed",
+      "email": "Please check your email",
+      "email-error": "Email failed",
+      "download": "Successfully downloaded",
+      "download-error": "Download failed",
+      "accept": "Thank you, your dating profile information has been sent",
+      "accept-no-request-exists": "Sorry, but there is no matching request",
+      "accept-error": "Sorry, but failed to accept this request"
+    },
+    "messages-by-email-off": {
+      "succeeded": "Email notification for new messages has been turned off",
+      "failed": "A problem occurred. Could not turn off email notifications for new messages. Please try again later"
+    }
+  },
+  "notifications": {
+    "mark-as-read": "Mark as read",
+    "mark-as-unread": "Mark as unread",
+    "empty": "No notifications right now",
+    "empty-messages": "No messages",
+    "hide-dismissed": "Hide dismissed",
+    "show-dismissed": "Show dismissed"
+  },
+  "profile-settings": {
+    "groups": {
+      "privacy": "Privacy",
+      "notifications": "Notifications",
+      "dating": "Dating",
+      "blocking": "Blocking",
+      "shabbat-settings": "Shabbat Availability",
+      "feed": "Feed",
+      "searching": "Searching"
+    },
+    "sub-groups": {
+      "notification-messages": "Messages",
+      "notification-invites": "Invites",
+      "notification-profile-views": "Profile Views",
+      "notification-friend-requests": "Friend Requests",
+      "notification-likes": "Likes",
+      "notification-comments": "Comments",
+      "notification-weekly": "Weekly activity email"
+    },
+    "options": {
+      "messaging-privacy": {
+        "site-members": "Everyone can direct message me (no request needed)",
+        "connections-others-request": "My connections can message me directly. All others must request.",
+        "connections-only": "I don't want to receive message requests. (Connections can direct message me)"
+      },
+      "profile-visibility": {
+        "anyone": "Any one",
+        "age-bracket": "Age Bracket",
+        "same-gender": "Same Gender",
+        "same-gender-and-age-bracket": "Same gender and age bracket"
+      },
+      "post-privacy": {
+        "all": "Everyone",
+        "connections": "Connections Only *",
+        "friends": "Friends Only"
+      },
+      "feed-content": {
+        "all": "Review posts (admin only)",
+        "public": "All public posts",
+        "recommended": "Recommended posts (includes popular/trending posts)",
+        "connections": "Posts from my connections only",
+        "trending": "Trending posts"
+      }
+    },
+    "descriptions": {
+      "message-request": "Site members will need to request permission to message me",
+      "anonymous-browsing": "View profiles anonymously. If enabled, you cannot see who has viewed your profile.",
+      "friending": "If enabled, members must send a friend request in order to become friends with you.",
+      "hide-all-media": "Do not display any pictures or videos in my shabbat.com site experience.",
+      "connections": "\"Connections\" includes friends, followers, hosts, and/or guests.",
+      "paginated-search-result": "Instead of a grid, present my search results as a list."
+    },
+    "links": {
+      "edit-host-settings": "Edit host setting",
+      "edit-guest-settings": "Edit guest setting",
+      "edit-host-guest-settings": "Edit guest setting",
+      "edit-dating-profile": "Edit dating profile",
+      "more": "more"
+    },
+    "message-request": "Message request",
+    "anonymous-browsing": "Anonymous Browsing",
+    "messaging-privacy": "Who can message me?",
+    "profile-visibility": "Who can see my profile?",
+    "messages-by-email": "Email",
+    "messages-by-push": "Push",
+    "invites-by-email": "Email",
+    "invites-by-push": "Push",
+    "profile-views-by-email": "Email",
+    "profile-views-by-push": "Push",
+    "new-friends-by-email": "Email",
+    "new-friends-by-push": "Push",
+    "likes-by-email": "Email",
+    "likes-by-push": "Push",
+    "comments-by-email": "Email",
+    "comments-by-push": "Push",
+    "friend-request-by-email": "Email",
+    "friend-request-by-push": "Push",
+    "who-can-message-me": "Who can message me?",
+    "notifications-and-alerts": "Notifications and Alerts",
+    "hosting-availability": "Hosting Availability",
+    "who-can-view-my-profile": "Who can view my profile",
+    "dating-privacy-and-settings": "Dating Privacy & Settings",
+    "stop-someone-from-bothering-me": "Stop someone from bothering me",
+    "friend-request": "Friend Requests",
+    "weekly-activity-summary-email": "Weekly activity summary email",
+    "available-as-guest": "Available for invitations",
+    "available-as-host": "Available to host",
+    "private-dating-profile": "Private dating profile",
+    "friend-request-needed": "Friend Requests Required",
+    "hide-all-media": "Block Pictures and Videos",
+    "available-for-dating": "I am available for dating",
+    "post-privacy": "Who can view my posts?",
+    "feed-content": "What should I see in my feed?",
+    "paginated-search-result": "Display search results as list",
+    "notification-messages": {
+      "title": "These are the notifications for new incoming messages",
+      "subtitle": "Where you receive these notifications"
+    },
+    "notification-invites": {
+      "title": "These are the notifications about Invites and Hosting Requests",
+      "subtitle": "Where you receive these notifications"
+    },
+    "notification-profile-views": {
+      "title": "These are the notifications about who is viewing your profile",
+      "subtitle": "Where you receive these notifications"
+    },
+    "notification-friend-requests": {
+      "title": "Notifications when someone sends you a friend request or accepts your friend request.",
+      "subtitle": "Where you receive these notifications"
+    },
+    "notification-likes": {
+      "title": "These are notifications for likes on your posts and comments.",
+      "subtitle": "Where you receive these notifications"
+    },
+    "notification-comments": {
+      "title": "These are notifications for comments on your posts and replies to your comments.",
+      "subtitle": "Where you receive these notifications"
+    },
+    "notification-weekly": {
+      "title": "Coming soon",
+      "subtitle": ""
+    },
+    "buttons": {
+      "view-blocking": "View all blocked users"
+    }
+  },
+  "zmanim": {
+    "zmanim-in-location": "Zmanim ({location})",
+    "candlelighting-in": "Candlelighting in {city}",
+    "shabbat-start-time": "Shabbat starts at",
+    "before-sunset": "{min} minutes before sunset",
+    "tooltip-candlelighting": "Candlelighting is {value} minutes before sunset",
+    "location": "Location",
+    "candlelighting": "Candlelighting",
+    "havdola": "Havdola",
+    "havdolaRabeinuTam": "Rabeinu Ta'am",
+    "update-location": "Update location"
+  },
+  "feed": {
+    "general": {
+      "new-feed-count": "{count} New Post | {count} New Posts"
+    },
+    "menu": {
+      "delete": "Delete post",
+      "delete-comment": "Delete comment",
+      "hide-post-from-feed": "Remove post from feed",
+      "hide-post-from-feed-hint": "Remove from the main feed (only) for all users",
+      "hide-all-posts-from": "Hide all posts from {name}",
+      "hide-all-posts-from-hint": "I prefer to not see any posts from {name}",
+      "restrict-from-posting": "Restrict {name} from posting",
+      "restrict-from-posting-hint": "User can post but it will not appear to others",
+      "edit": "Edit post",
+      "edit-comment": "Edit comment",
+      "flag": "Flag",
+      "open-new-tab": "Open in a new tab",
+      "open-new-tab-hint": "See only this post in full",
+      "copy-link-to-post": "Copy link to this post",
+      "copy-link-to-post-hint": "Share this post’s link to social media",
+      "author-admin-only": "Author (or admin) Only:",
+      "all-members": "All Members:",
+      "flag-content": "Flag this post",
+      "flag-content-hint": "I’m concerned about this post",
+      "share": "Share"
+    },
+    "comments": {
+      "comments-count": "{count} comments",
+      "like": "Like",
+      "reply": "Reply",
+      "someone-replied": "{name} replied",
+      "replies": "{number} Replies",
+      "write-comment-placeholder": "Write a comment...",
+      "press-enter-to-post": "Press Enter to post.",
+      "add-emoji": "Add Emoji",
+      "attach-photo": "Attach Photo",
+      "attach-video": "Attach Video",
+      "view-more-comments": "View More Comments",
+      "view-all-replies": "View All Replies",
+      "save-changes": "Save Changes"
+    },
+    "likes": {
+      "likes-count": "{count} likes",
+      "post-likes": "Post likes",
+      "liked-by": "Liked by",
+      "view-all": "View All ({count})",
+      "view-more": "View More Likes"
+    },
+    "views": {
+      "views-count": "{count} views"
+    },
+    "modal": {
+      "failed-to-load-post": "Failed to load the requested post.",
+      "enlarge": "Enlarge",
+      "delete": {
+        "title": "Delete Post?",
+        "body": "Are you sure you want to delete this post?"
+      },
+      "hide-post-from-feed": {
+        "title": "Hide Post From Feed?",
+        "body": "Are you sure you want to hide this post from feed?"
+      },
+      "hide-all-posts-from": {
+        "title": "Hide All Posts?",
+        "body": "Are you sure you want to hide all posts from {name}?"
+      },
+      "posting-restrict": {
+        "title": "Restrict Posting?",
+        "body": "Are you sure you want to restrict {name} from posting?"
+      },
+      "text-only-post": {
+        "title": "Media Missing",
+        "body": "Submit a picture or video for this post to appear in the main feed",
+        "btn-post-anyway": "Post Anyway"
+      }
+    },
+    "editor-textarea": {
+      "placeholder": "What's on your mind, {firstName}?",
+      "placeholder-video": "Say something about this video",
+      "placeholder-photo": "Say something about this photo"
+    },
+    "editor-buttons": {
+      "photo": "Photo",
+      "video": "Video",
+      "job": "Job",
+      "emoji": "Emoji",
+      "submit": "Post"
+    },
+    "share": {
+      "title": "Share",
+      "disabled-privacy": "Apologies, this post cannot be shared publicly due to the privacy settings of the author."
+    },
+    "recent-blogs": {
+      "title": "Latest from the Blog..."
+    },
+    "recent-members": {
+      "title": "Recent Members"
+    },
+    "profile-at-a-glance": {
+      "welcome-name": "Welcome, {name}!",
+      "add-an-avatar": "Add an avatar",
+      "add-avatar": "Add Avatar",
+      "views": "Profile Views",
+      "connections": "Connections"
+    },
+    "feed-preference": {
+      "all-public-posts": "All public posts",
+      "posts-from-my-connections-only": "Posts from my connections only",
+      "trending-posts": "Trending posts",
+      "review-posts": "Review posts (admin only)",
+      "no-connections-hint": "Add friends and followers to view posts"
+    }
+  },
+  "parsha": {
+    "title": "Parsha with",
+    "sub-title": "Rabbi Juravel",
+    "load-error": "An error occurred while loading this page. Please try again later.",
+    "nav": {
+      "prev": "Previous Parsha",
+      "all-parshiyos": "All Parshiyos",
+      "next": "Next Parsha"
+    },
+    "scroll-to-bottom": "Click here to scroll down, and hear this week's Parsha audio!",
+    "this-weeks-parsha": "This week's Parsha is {parsha}.",
+    "content": {
+      "parsha-audio-desc": "<b>Stories, mashalim and</b> midrashim about the parsha by reknown educator, Rabbi Juravel.",
+      "copyright": "Unauthorized downloading or duplication to any format is against the law and Halacha.",
+      "bonus-audio-desc": "<b>{parsha} bonus content! Even more</b> parsha content not available anywhere else!"
+    },
+    "coupon": {
+      "callout-text": "Enjoying parsha with Rabbi Juravel?<br>Available for purchase!",
+      "buy-now": "Buy now",
+      "discount-headline": "50% Discount",
+      "discount-text": "on parsha CDs using the promo code: 'shabbat.com'"
+    },
+    "search": {
+      "title": "Search by Chumash:"
+    }
+  },
+  "post": {
+    "post-reason": {
+      "commented": "commented on this"
+    },
+    "create-preview": "Create Post",
+    "edit-preview": "Edit Post",
+    "upload-photo": "Upload Photo",
+    "upload-video": "Upload Video",
+    "uploading": "Uploading ...",
+    "processing": "Processing ...",
+    "upload-photo-success": "Picture has successfully uploaded and is currently processing. We will notify you when ready",
+    "upload-video-success": "Video has successfully uploaded and is currently processing. We will notify you when ready.",
+    "trending": "Trending"
+  },
+  "media": {
+    "upload": {
+      "photo-drop-text": "Drag and drop your picture here",
+      "video-drop-text": "Drag and drop your video here",
+      "upload-photo-button": "Upload Picture",
+      "upload-video-button": "Upload Video"
+    },
+    "video": {
+      "drag-drop": "Drag and drop your video here",
+      "or": "or",
+      "uploading": "Uploading ...",
+      "processing": "Processing ...",
+      "validation": {
+        "gb": "GB",
+        "maximum": "Please upload a video smaller than",
+        "unsupported": "Please select a valid video type"
+      }
+    },
+    "picture": {
+      "cropping": {
+        "drag-drop": "Drag and drop your picture here",
+        "or": "or",
+        "zoom": "Zoom",
+        "rotate": "Rotate",
+        "uploading": "Uploading ...",
+        "processing": "Processing ...",
+        "set-as-avatar": "Set as Avatar",
+        "remove-as-avatar": "Remove as Avatar",
+        "discard-changes": "Discard changes",
+        "zoom-out": "Zoom Out",
+        "zoom-in": "Zoom In",
+        "flip-horizontal": "Flip Horizontal",
+        "flip-vertical": "Flip Vertical",
+        "rotate-clockwise": "Rotate Clockwise",
+        "rotate-counter-clockwise": "Rotate Counter-Clockwise"
+      },
+      "validation": {
+        "minimum": "Please upload a picture larger than",
+        "maximum": "Please upload a picture smaller than",
+        "unsupported": "Please select a valid picture type"
+      }
+    }
+  },
+  "errors": {
+    "network-error": "Network Error",
+    "error-general": "An error has occurred.",
+    "toast-title": "Error",
+    "shabbat-error": "Shabbat.com has experienced an error. The error has been logged and will be addressed by our team accordingly.",
+    "auth": {
+      "token-invalid": "Session expired. You have to login again",
+      "logout-failed": "Logout failed"
+    },
+    "feature-flags": {
+      "load-global-failed": "Failed to load global feature flags",
+      "load-failed": "Failed to load feature flags"
+    },
+    "profile": {
+      "block-profile": "Failed to block this profile",
+      "unblock-profile": "Failed to unblock this profile",
+      "report-member": "Failed to report this member",
+      "update-guest-profile": "Failed to update guest profile",
+      "update-host-profile": "Failed to update host profile",
+      "update-profile": "Failed to update profile information"
+    },
+    "feed": {
+      "create-post": "Failed to create a new post",
+      "create-comment-on-feed-item": "Failed to add a new comment on post",
+      "create-reply-on-comment": "Failed to add a new reply on comment",
+      "create-like-on-comment": "Failed to add a like on comment",
+      "create-like-on-comment-reply": "Failed to add a like on comment reply",
+      "create-like-on-feed-item": "Failed to add like on post",
+      "delete-comment-on-feed-item": "Failed to remove comment on post",
+      "delete-feed-item": "Failed to remove post",
+      "hide-post-from-feed": "Failed to hide post from post",
+      "hide-all-posts-from": "Failed to hide all posts from this person",
+      "delete-like-on-comment": "Failed to remove like on comment",
+      "delete-like-on-comment-reply": "Failed to remove like on comment reply",
+      "delete-like-on-feed-item": "Failed to remove like on post",
+      "delete-reply-on-comment": "Failed to remove reply on comment",
+      "load-webscraped-preview": "Failed to load preview of url",
+      "load-feed-item-by-id": "Failed to load this post",
+      "load-feed-item-comments": "Failed to load comments on post",
+      "load-feed-item-likes": "Failed to load likes on post",
+      "load-feed-items-by-profile-id": "Failed to load feed",
+      "load-profile-feed-items": "Failed to load profile feed",
+      "subscribe-to-feed": "Failed to connect to websocket. Please refresh your browser and try again",
+      "subscribe-to-feed-item": "Failed to connect to websocket. Please refresh your browser and try again",
+      "subscribe-to-new-feed-count": "Failed to connect to websocket. Please refresh your browser and try again",
+      "update-feed-item": "Failed to update the post",
+      "FORBIDDEN": "You do not have access to this post.",
+      "invalid-post-id": "This post doesn't exist or has been deleted.",
+      "failed-to-fetch": "Failed to load the selected post. Please try again later."
+    },
+    "friend": {
+      "add-friend": "Failed to add a new friend",
+      "approve-friend-request": "Failed to approve friend request",
+      "cancel-friend-request": "Failed to cancel friend request",
+      "get-friends": "Failed to load friends",
+      "get-my-friend-requests": "Failed to load my friend requests",
+      "reject-friend-request": "Failed to reject friend request",
+      "remove-friend": "Failed to remove friend"
+    },
+    "endorsements": {
+      "load-endorsements": "Failed to load endorsements"
+    },
+    "media": {
+      "failed-to-load-image": "Failed to load image"
+    }
+  },
+  "admin": {
+    "recent-members": {
+      "title": "Recent Members",
+      "empty": "No Recent Members",
+      "delete-modal": {
+        "title": "Delete Member?",
+        "body": "Are you sure you want to delete this member?"
+      },
+      "delete-suspend-modal": {
+        "title": "Suspend Member?",
+        "body": "Are you sure you want to suspend this member?"
+      },
+      "zealot-enable-modal": {
+        "title": "Enable Zealot?",
+        "body": "Are you sure you want to enable zealot for this member?"
+      },
+      "zealot-disable-modal": {
+        "title": "Disable Zealot?",
+        "body": "Are you sure you want to disable zealot for this member?"
+      },
+      "greenlight-enable-modal": {
+        "title": "Enable Greenlight?",
+        "body": "Are you sure you want to enable greenlight for this member?"
+      },
+      "greenlight-disable-modal": {
+        "title": "Disable Greenlight?",
+        "body": "Are you sure you want to disable greenlight for this member?"
+      },
+      "admin-grant-modal": {
+        "title": "Grant Admin Access?",
+        "body": "Are you sure you want to grant admin access for this member?"
+      },
+      "admin-revoke-modal": {
+        "title": "Revoke Admin Access?",
+        "body": "Are you sure you want to revoke admin access for this member?"
+      },
+      "unreport-modal": {
+        "title": "Unreport Member and Remove any Site Restrictions?"
+      },
+      "merge-social-login-modal": {
+        "title": "Merge social login",
+        "body": "This operation allows to merge <b>this</b> account with the <b>secondary</b> and combine their <b>social logins</b>. <br /> <br /> Warning! After merging, secondary profile will be <b>removed</b>. <br />",
+        "merge": "Merge",
+        "success": "Profiles were successfully merged",
+        "error": "Some error occurred during the profile merge"
+      },
+      "restore-modal": {
+        "title": "Restore member?",
+        "body": "Are you sure you want to restore this member?"
+      },
+      "search": "Search",
+      "filters": {
+        "all": "All Members",
+        "active": "Active / Complete",
+        "reported": "Reported",
+        "deleted": "Deleted",
+        "suspended": "Suspended",
+        "incomplete": "Incomplete",
+        "highrisk": "High Risk",
+        "restricted": "Restricted",
+        "olami": "Olami"
+      }
+    },
+    "flagged-contents": {
+      "empty": "No Flagged Contents",
+      "title": "Flagged Contents",
+      "delete-content-modal": {
+        "title": "Delete Content?",
+        "body": "Are you sure you want to delete this content?"
+      },
+      "delete-success": "Content deleted successfully"
+    },
+    "reported-members": {
+      "title": "Reported Members",
+      "empty": "No Reported Members"
+    },
+    "blocked-members": {
+      "unblock": "Unblock",
+      "empty": "No Blocked Members"
+    },
+    "admin-totals": {
+      "title": "Totals"
+    }
+  },
+  "validations": {
+    "messages": {
+      "required": "Please provide {field}",
+      "email": "Email address is not valid",
+      "password_min": "Password must have at least 6 characters.",
+      "full_name_min": "Full Name must have at least 4 characters.",
+      "message_min": "Message must have at least 4 characters.",
+      "confirmPassword": "Password confirmation does not match",
+      "alpha": "{field} is invalid",
+      "alpha_spaces": "{field} is invalid",
+      "phone_invalid": "Invalid phone number",
+      "min_value": "The {field} field must be {min} or more"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "repeatPassword": "Repeat Password",
+      "interests": "Interests",
+      "city": "City",
+      "religiousAffiliation": "Religious Affiliation",
+      "title": "Title",
+      "martialStatus": "Marital Status",
+      "occupation": "Occupation",
+      "reason": "Reason",
+      "name": "Name",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "fullName": "Full Name",
+      "phoneNumber": "Phone Number",
+      "country": "Country",
+      "state": "State",
+      "gender": "Gender",
+      "siteRole": "Site Role",
+      "message": "Message",
+      "childrenAtHome": "Children At Home",
+      "birthday": "Birthday"
+    }
+  },
+  "moment": {
+    "just-now": "just now",
+    "ago": "ago"
+  },
+  "conversations": {
+    "create-broadcast-conversation-modal": {
+      "title": "Send a broadcast message to {size} selected people",
+      "submit": "Broadcast",
+      "type-your-message": "{name}, type your broadcast message",
+      "title-input": "Title",
+      "emoji-button": "Emoji",
+      "photo-button": "Photo",
+      "video-button": "Video",
+      "submit-success": "Successfully sent a broadcast message"
+    }
+  },
+  "endorsement-templates": {
+    "templates": "Templates",
+    "select-template": "Select from one of our templates",
+    "select": "Select",
+    "host-template-1": "Spending Shabbat with {firstName} was an absolute pleasure! Their warm hospitality and attention to detail made me feel so welcomed and comfortable.",
+    "host-template-2": "I had the most amazing Shabbat experience with {firstName}. Their home was so beautiful and inviting, and they went above and beyond to ensure that I had everything I needed.",
+    "host-template-3": "I can't say enough good things about my Shabbat experience with {firstName}. From the delicious meals to the engaging conversations, everything was just perfect.",
+    "host-template-4": "{firstName} truly embodies the spirit of Shabbat. Their kindness and generosity were evident in every aspect of my stay, and I feel so grateful to have had the opportunity to spend time with them.",
+    "host-template-5": "I couldn't have asked for a better Shabbat experience than the one I had with {firstName}. Their warmth and hospitality were truly unmatched.",
+    "host-template-6": "{firstName} is an incredible host who goes above and beyond to make their guests feel comfortable and cared for. I feel so lucky to have had the chance to spend Shabbat with them.",
+    "host-template-7": "My Shabbat with {firstName} was a truly unforgettable experience. Their home was beautiful, their food was delicious, and their company was simply wonderful.",
+    "host-template-8": "{firstName} is the epitome of graciousness and hospitality. I felt so welcomed and cared for during my Shabbat stay with them.",
+    "host-template-9": "I had the most amazing time spending Shabbat with {firstName}. They are such a kind and generous person, and it was an honor to be their guest.",
+    "host-template-10": "I will always cherish the memories of my Shabbat with {firstName}. Their warmth and hospitality made me feel like part of the family, and I can't wait to come back again.",
+    "guest-template-1": "{firstName} was the perfect guest for our Shabbat celebration. Their positive energy and enthusiasm were contagious, and they brought so much joy to our home.",
+    "guest-template-2": "I feel so lucky to have had {firstName} as our guest for Shabbat. They were so respectful and considerate, and it was a pleasure to have them in our home.",
+    "guest-template-3": "Spending Shabbat with {firstName} was a truly delightful experience. They were so kind and engaging, and we had such wonderful conversations over our meals.",
+    "guest-template-4": "{firstName} is an absolute gem of a person. Their warmth and generosity were evident throughout their stay, and they truly made our Shabbat celebration special.",
+    "guest-template-5": "We couldn't have asked for a better guest for our Shabbat celebration than {firstName}. Their positive attitude and graciousness were truly appreciated.",
+    "guest-template-6": "It was an honor to have {firstName} as our guest for Shabbat. They were so respectful of our traditions and customs, and we felt so blessed to have them in our home.",
+    "guest-template-7": "{firstName} was a true pleasure to have as our guest for Shabbat. Their kindness and warmth made us feel so comfortable and at ease.",
+    "guest-template-8": "We had the most wonderful time hosting {firstName} for Shabbat."
+  }
+}

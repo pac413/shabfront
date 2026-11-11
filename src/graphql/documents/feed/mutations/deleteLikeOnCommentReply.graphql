@@ -1,0 +1,8 @@
+mutation deleteLikeOnCommentReply($input: DeleteLikeOnCommentReplyInput!) {
+  deleteLikeOnCommentReply(input: $input) {
+    postId
+    commentId
+    commentReplyId
+    likeId
+  }
+}

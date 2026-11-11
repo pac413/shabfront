@@ -1,0 +1,10 @@
+mutation unblockProfile($profileId: ID!, $onbehalf: ID) {
+  unblockProfileV2(profileId: $profileId, onbehalf: $onbehalf) {
+    ...on Profile {
+      ...ProfileFragment
+    }
+    ...on Error {
+      message
+    }
+  }
+}

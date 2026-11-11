@@ -1,0 +1,8 @@
+query feedItemsByProfileId($profileId: ID, $limit: Int!,$offset: Int!){
+  feedItemsByProfileId(input: { profileId: $profileId, limit: $limit, offset: $offset }) {
+    total
+    feedItems {
+      ...FeedItemFragment
+    }
+  }
+}

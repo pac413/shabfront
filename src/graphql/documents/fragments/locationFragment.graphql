@@ -1,0 +1,11 @@
+fragment LocationFragment on Location {
+  address
+  city
+  state
+  zipcode
+  country
+  geoLocation {
+    coordinates
+  }
+  timeZone
+}

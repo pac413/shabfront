@@ -1,0 +1,12 @@
+query guestProfileByProfileId($id: ID) {
+  profile(input: { id: $id }) {
+    profile {
+      guestProfile {
+        ...GuestProfileFragment
+      }
+    }
+    errors {
+      message
+    }
+  }
+}

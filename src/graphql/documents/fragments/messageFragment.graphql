@@ -1,0 +1,22 @@
+fragment MessageFragment on Message {
+  id
+  text
+  type
+  date
+  isBroadcastMessage
+  sender {
+    ...SimpleProfileFragment
+  }
+  status {
+    ...MessageStatusFragment
+  }
+  attachments {
+    ...MediaFragment
+  }
+  webScraped {
+    ...WebScrapedBasicFragment
+  }
+  reactions {
+    ...MessageReactionFragment
+  }
+}

@@ -1,0 +1,10 @@
+mutation createLikeOnCommentReply($input: CreateLikeOnCommentReplyInput!) {
+  createLikeOnCommentReply(input: $input) {
+    postId
+    commentId
+    commentReplyId
+    like {
+      ...PostLikeFragment
+    }
+  }
+}

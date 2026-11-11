@@ -1,0 +1,4 @@
+fragment OccupationFragment on Occupation {
+  id
+  name
+}

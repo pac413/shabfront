@@ -1,0 +1,15 @@
+query adminRecentMembers(
+  $limit: Int!
+  $offset: Int!
+  $filter: AdminRecentMembersFilterInput
+) {
+  adminRecentMembers (input: {
+    limit: $limit
+    offset: $offset
+    filter: $filter
+  }) {
+    profiles {
+      ...adminRecentMemberFragment
+    }
+  }
+}

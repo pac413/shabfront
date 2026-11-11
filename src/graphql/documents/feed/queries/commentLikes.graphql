@@ -1,0 +1,8 @@
+query commentLikes($input: CommentLikesInput!){
+  commentLikes (input: $input) {
+    likes {
+      ...PostLikeFragment
+    }
+    total
+  }
+}

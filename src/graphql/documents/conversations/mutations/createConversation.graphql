@@ -1,0 +1,5 @@
+mutation createConversation($participants: [ID]!) {
+  createConversation(input: { participants: $participants }) {
+    ...ConversationFragment
+  }
+}

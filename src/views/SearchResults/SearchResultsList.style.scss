@@ -1,0 +1,42 @@
+.search-results-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .inner-container {
+    background-color: #f8fafd;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+}
+
+.statistics {
+  font-size: 18px;
+  font-weight: bold;
+  color: $colorStickyText;
+
+  .blue {
+    color: blue;
+  }
+
+  .green {
+    color: green;
+  }
+}
+
+:deep(.profile-list) {
+  margin: 1rem 3rem !important;
+
+  @media (max-width: $mobileMaxWidth) {
+    margin: 0 !important;
+  }
+}
+
+.pagination {
+  margin: 0rem 3rem;
+  position: sticky;
+  bottom: 0px;
+  z-index: 10;
+  background: #f8fafd;
+}

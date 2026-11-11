@@ -1,0 +1,15 @@
+fragment FlaggedContentFragment on FlaggedContent {
+  id
+  resourceId
+  type
+  reason
+  reportedBy {
+    ...ProfileFragment
+    isZealot
+    isGreenlight
+  }
+  ownedBy {
+    ...ProfileFragment
+  }
+  createdAt
+}

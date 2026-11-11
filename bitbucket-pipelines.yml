@@ -1,0 +1,106 @@
+image: node:18
+
+definitions:
+  caches:
+    node:
+      key:
+        files:
+          - package-lock.json
+      path: node_modules
+  steps:
+    - step: &Lint-Test
+        name: Install and check linting
+        caches:
+          - node
+        script:
+          - apt-get update && apt-get -y install git
+          - npm ci
+          - npm run lint
+    - step: &Translate
+        name: Download translations from localazy
+        image: localazy/cli:latest
+        script:
+          - localazy download -w $LOCALAZY_WRITE_KEY -r $LOCALAZY_READ_KEY
+    - step: &Build
+        size: 2x
+        name: Build
+        image: node:18
+        caches:
+          - node
+        script:
+          - npm run generate:graphql
+          - npm run build
+        artifacts:
+          - dist/**
+    - step: &Deploy
+        name: Deploy to S3
+        script:
+          - pipe: atlassian/aws-s3-deploy:0.3.8
+            variables:
+              AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+              AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+              AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+              S3_BUCKET: $BUCKET_NAME
+              ACL: "public-read"
+              LOCAL_PATH: "dist"
+          - pipe: atlassian/aws-cloudfront-invalidate:0.5.0
+            variables:
+              AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+              AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+              AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+              DISTRIBUTION_ID: $DISTRIBUTION_ID
+pipelines:
+  pull-requests:
+    '**':
+      - step: *Lint-Test
+      - step:
+          <<: *Translate
+          deployment: localazy
+      - step:
+          <<: *Build
+          deployment: develop-build
+  branches:
+    dev:
+      - step: *Lint-Test
+      - step:
+          <<: *Translate
+          deployment: localazy
+      - step:
+          <<: *Build
+          deployment: develop-build
+      - step:
+          <<: *Deploy
+          deployment: develop
+    staging:
+      - step: *Lint-Test
+      - step:
+          <<: *Translate
+          deployment: localazy
+      - step:
+          <<: *Build
+          deployment: staging-build
+      - step:
+          <<: *Deploy
+          deployment: staging
+    uat:
+      - step: *Lint-Test
+      - step:
+          <<: *Translate
+          deployment: localazy
+      - step:
+          <<: *Build
+          deployment: uat-build
+      - step:
+          <<: *Deploy
+          deployment: uat
+    master:
+      - step: *Lint-Test
+      - step:
+          <<: *Translate
+          deployment: localazy
+      - step:
+          <<: *Build
+          deployment: production-build
+      - step:
+          <<: *Deploy
+          deployment: production

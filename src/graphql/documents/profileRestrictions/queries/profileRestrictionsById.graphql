@@ -1,0 +1,12 @@
+query profileRestrictionsById($id: ID) {
+  profile(input: { id: $id }) {
+    profile {
+      restrictions {
+        ...ProfileRestrictionsFragment
+      }
+    }
+    errors {
+      message
+    }
+  }
+}

@@ -1,0 +1,10 @@
+mutation addHostSiteRole($profileId: ID) {
+  addHostSiteRole(input: { id: $profileId }) {
+    error {
+      message
+    }
+    profile {
+      ...ProfileFragment
+    }
+  }
+}

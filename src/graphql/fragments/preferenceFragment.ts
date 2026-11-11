@@ -1,0 +1,42 @@
+import gql from 'graphql-tag'
+
+export const PreferenceFragment = gql`
+  fragment PreferenceFragment on Preference {
+    type
+    name
+    city
+    state
+    country
+    occupation
+    location
+    role
+    availableToHost
+    availableForInvites
+    ageAll
+    ageRange
+    filterAgeFrom
+    filterAgeTo
+    activeProfilesOnly
+    picturesOnly
+    menOnly
+    womenOnly
+    popular
+    recentMembership
+    hasEndorsements
+    religionFilterType
+    locationAll
+    locationMe
+    proxRadius
+    locationPlace
+    cityRetrieved
+    cityCoordinate {
+      longitude
+      latitude
+    }
+    coordinates {
+      longitude
+      latitude
+    }
+    sortBy
+  }
+`

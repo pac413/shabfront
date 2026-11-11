@@ -1,0 +1,29 @@
+import gql from 'graphql-tag'
+
+export const MediaFragment = gql`
+  fragment MediaFragment on Media {
+    id
+    mediaType
+    mediaSubType
+    originalMediaId
+    originalFilename
+    mimetype
+    originalUrl
+    status
+    thumbnails {
+      name
+      url
+    }
+    quality {
+      name
+      url
+    }
+    meta {
+      width
+      height
+      size
+      orientation
+      duration
+    }
+  }
+`

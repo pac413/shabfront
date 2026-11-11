@@ -1,0 +1,10 @@
+query countries {
+  countries {
+    countries {
+      id
+      sortname
+      name
+      phonecode
+    }
+  }
+}

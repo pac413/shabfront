@@ -1,0 +1,16 @@
+mutation bulkDeleteMembers(
+  $profileIds: [ID!]
+  $suspend: Boolean
+) {
+  bulkDeleteMembers(
+    input: {
+      profileIds: $profileIds,
+      suspend: $suspend
+    }
+  ) {
+    success
+    profiles {
+      ...adminRecentMemberFragment
+    }
+  }
+}

@@ -1,0 +1,11 @@
+mutation mergeProfiles(
+  $primaryProfileId: ID!
+  $secondaryProfileId: ID!
+) {
+  mergeProfiles (input: {
+    primaryProfileId: $primaryProfileId
+    secondaryProfileId: $secondaryProfileId
+  }) {
+    status
+  }
+}

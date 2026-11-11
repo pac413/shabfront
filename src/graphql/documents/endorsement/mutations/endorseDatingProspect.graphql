@@ -1,0 +1,7 @@
+mutation endorseDatingProspect($input: EndorseDatingProspectInput!) {
+  endorseDatingProspect(input: $input) {
+    endorsement{
+      ...EndorsementFragment
+    }
+  }
+}

@@ -1,0 +1,20 @@
+fragment NotificationFragment on Notification {
+  id
+  type
+  triggeredBy {
+    ...SimpleProfileFragment
+  }
+  title
+  content
+  status
+  actions {
+    name
+    label
+    style
+    type
+    payload
+    actionUrl
+  }
+  createdAt
+  updatedAt
+}

@@ -1,0 +1,5 @@
+mutation archiveConversation($conversationId: ID!) {
+  archiveConversation(input: { conversationId: $conversationId }) {
+    archived
+  }
+}

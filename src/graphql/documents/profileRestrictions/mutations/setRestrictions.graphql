@@ -1,0 +1,5 @@
+mutation setRestrictions($input: RestrictionsInput!) {
+  setRestrictions(input: $input) {
+    ...ProfileRestrictionsFragment
+  }
+}

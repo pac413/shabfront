@@ -1,0 +1,7 @@
+mutation endorseGuest($input: EndorseGuestInput!) {
+  endorseGuest(input: $input) {
+    endorsement{
+      ...EndorsementFragment
+    }
+  }
+}

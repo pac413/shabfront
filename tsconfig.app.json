@@ -1,0 +1,32 @@
+{
+  "extends": "@vue/tsconfig/tsconfig.json",
+  "include": ["env.d.ts", "components.d.ts", "src/**/*", "src/**/*.vue", "src/**/*.json"],
+  "compilerOptions": {
+    "composite": true,
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "allowJs": true,
+    "importHelpers": true,
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": [
+      "@vime/core",
+      "dom-mediacapture-record",
+      "vite/client",
+      "unplugin-fonts/client",
+      "@intlify/unplugin-vue-i18n/messages"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

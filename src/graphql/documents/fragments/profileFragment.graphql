@@ -1,0 +1,66 @@
+fragment ProfileFragment on Profile {
+  id
+  firstName
+  lastName
+  displayName
+  title
+  avatar {
+    ...AvatarFragment
+  }
+  wallpaper {
+    ...WallpaperFragment
+  }
+  primaryLocation {
+    ...LocationFragment
+  }
+  primaryLocale
+  handle
+  isBlocked
+  isBlocking
+  profileUrl
+  pictures {
+    ...PictureFragment
+  }
+
+  isFollowing
+  birthday
+  gender
+  occupation
+  occupationId
+  uncuratedOccupation
+  organization
+  religiousAffiliation
+  about
+  isMarried
+  spouse
+  children
+  siteRoles
+  dateActive
+  createdAt
+  datingProfile {
+    ...DatingFragment
+  }
+  hostProfile {
+    ...HostProfileFragment
+  }
+  guestProfile {
+    ...GuestProfileFragment
+  }
+  friendship {
+    ...FriendshipFragment
+  }
+  totals {
+    views
+    invites
+    connections
+  }
+  isPushSupported
+  olamiContactMe
+
+  # Admin / Self information
+  email
+  phone
+  references {
+    ...ReferenceFragment
+  }
+}

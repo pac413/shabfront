@@ -1,0 +1,20 @@
+query recentMembers($limit: Int!) {
+  recentMembers(input: { limit: $limit }) {
+    profiles {
+      id
+      avatar {
+        ...AvatarFragment
+      }
+      firstName
+      lastName
+      displayName
+      handle
+      primaryLocation {
+        city
+        state
+        country
+      }
+      createdAt
+    }
+  }
+}

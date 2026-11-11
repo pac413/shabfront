@@ -1,0 +1,11 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.tribex.shabbat",
+    "sha256_cert_fingerprints":
+    [
+      "13:4A:13:67:EC:AD:37:E2:E9:02:0F:8C:40:EA:34:79:1C:12:BE:59:B1:A2:B6:FF:78:D1:78:C9:FE:54:B0:C1"
+    ]
+  }
+}]

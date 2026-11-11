@@ -1,0 +1,13 @@
+mutation flagContent(
+  $resourceId: String!,
+  $type: FlaggedContentType!,
+  $reason: String!
+) {
+  flagContent(
+    input: {
+      resourceId: $resourceId,
+      type: $type,
+      reason: $reason
+    }
+  )
+}

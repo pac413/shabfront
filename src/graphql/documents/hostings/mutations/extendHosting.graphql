@@ -1,0 +1,19 @@
+mutation extendHosting(
+  $guest: ID!
+  $parts: [HostingPart]!
+  $date: Date!
+  $note: String!
+) {
+  extendHosting(
+    input: {
+      guest: $guest
+      parts: $parts
+      date: $date
+      note: $note
+    }
+  ) {
+    hosting {
+      ...HostingFragment
+    }
+  }
+}

@@ -1,0 +1,5 @@
+mutation createReplyOnComment($input: CreateReplyOnCommentInput!) {
+  createReplyOnComment(input: $input) {
+    ...PostCommentReplyFragment
+  }
+}

@@ -1,0 +1,25 @@
+query endorsements(
+  $profileId: ID!
+  $onSiteRole: EndorsementSiteRole
+  $offset: Int
+  $limit: Int!
+) {
+  endorsements(
+    input: {
+      profileId: $profileId
+      onSiteRole: $onSiteRole
+      offset: $offset
+      limit: $limit
+    }
+  ) {
+    edges {
+      nodes {
+        ...EndorsementFragment
+      }
+      profileId
+      offset
+      limit
+    }
+    total
+  }
+}

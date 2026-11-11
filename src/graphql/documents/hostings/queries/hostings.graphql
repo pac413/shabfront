@@ -1,0 +1,12 @@
+query hostings(
+  $input: hostingsInput!
+) {
+  Hostings(input: $input) {
+    hostings {
+      ...HostingFragment
+    }
+    total
+    offset
+    limit
+  }
+}

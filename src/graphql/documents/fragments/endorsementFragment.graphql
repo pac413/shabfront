@@ -1,0 +1,8 @@
+fragment EndorsementFragment on Endorsement {
+  endorser {
+    ...SimpleProfileFragment
+  }
+  id
+  body
+  date
+}

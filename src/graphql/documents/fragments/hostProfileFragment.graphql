@@ -1,0 +1,30 @@
+fragment HostProfileFragment on HostProfile {
+  id
+  hostMen
+  hostWomen
+  mealAmount
+  sleepAmount
+  hostAffiliatedJews
+  hostUnAffiliatedJews
+  hostFamiliesWithChildren
+  showGuestList
+  reserveBy
+  status
+  location {
+    city
+  }
+  privateInviteEnabled
+  privateInviteCode
+  hostEndorsements {
+    endorsements {
+      ...EndorsementFragment
+    }
+    total
+  }
+  references {
+    ...ReferenceFragment
+  }
+  unavailableGuests {
+    ...SimpleProfileFragment
+  }
+}

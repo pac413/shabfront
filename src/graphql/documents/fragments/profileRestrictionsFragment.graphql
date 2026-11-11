@@ -1,0 +1,7 @@
+fragment ProfileRestrictionsFragment on ProfileRestrictions {
+  profileId
+  feed
+  messaging
+  actions
+  search
+}

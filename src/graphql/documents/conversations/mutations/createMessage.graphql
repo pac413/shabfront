@@ -1,0 +1,24 @@
+mutation createMessage(
+  $conversationId: ID!
+  $attachmentsIds: [ID]
+  $text: String
+  $type: MessageType
+  $webScraped: WebScrapedBasicInput
+) {
+  createMessage(
+    input: {
+      conversationId: $conversationId
+      attachmentsIds: $attachmentsIds
+      text: $text
+      type: $type
+      webScraped: $webScraped
+    }
+  ) {
+    message {
+      ...MessageFragment
+      conversation {
+        id
+      }
+    }
+  }
+}

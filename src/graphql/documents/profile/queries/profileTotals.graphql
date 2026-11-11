@@ -1,0 +1,12 @@
+query profileTotals($id: ID) {
+  profile(input: { id: $id }) {
+    profile {
+      totals {
+        ...ProfileTotals
+      }
+    }
+    errors {
+      message
+    }
+  }
+}

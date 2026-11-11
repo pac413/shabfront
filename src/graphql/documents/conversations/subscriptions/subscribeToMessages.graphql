@@ -1,0 +1,10 @@
+subscription subscribeToMessages($conversationId: ID!) {
+  subscribeToMessages(input: { conversationId: $conversationId }) {
+    message {
+      ...MessageFragment
+      conversation {
+        id
+      }
+    }
+  }
+}

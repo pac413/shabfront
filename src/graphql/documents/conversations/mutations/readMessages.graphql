@@ -1,0 +1,10 @@
+mutation readMessages($conversationId: ID!) {
+  readMessages(input: { conversationId: $conversationId }) {
+    messages {
+      id
+      status {
+        ...MessageStatusFragment
+      }
+    }
+  }
+}

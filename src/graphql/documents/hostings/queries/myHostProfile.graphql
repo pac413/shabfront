@@ -1,0 +1,9 @@
+query myHostProfile($date: Date) {
+  myHostProfile(input: {
+    hostingDate: $date
+  }) {
+    hostProfile {
+      ...HostProfileFragment
+    }
+  }
+}

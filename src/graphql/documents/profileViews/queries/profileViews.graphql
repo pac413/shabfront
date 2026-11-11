@@ -1,0 +1,8 @@
+query profileViews($offset: Int!, $limit: Int!, $profileId: ID) {
+  profileViews(input: { offset: $offset, limit: $limit, profileId: $profileId }) {
+    profileViews {
+      ...ProfileViewFragment
+    }
+    total
+  }
+}

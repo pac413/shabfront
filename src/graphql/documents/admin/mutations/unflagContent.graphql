@@ -1,0 +1,3 @@
+mutation unflagContent($id: ID!) {
+  unflagContent(input: { id: $id })
+}

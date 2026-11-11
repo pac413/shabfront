@@ -1,0 +1,7 @@
+ mutation endorseHost($input: EndorseHostInput!) {
+  endorseHost(input: $input) {
+    endorsement{
+      ...EndorsementFragment
+    }
+  }
+}

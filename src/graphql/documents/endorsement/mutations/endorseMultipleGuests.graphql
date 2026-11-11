@@ -1,0 +1,7 @@
+mutation endorseMultipleGuests($input: EndorseMultipleGuestsInput!) {
+  endorseMultipleGuests(input: $input) {
+    endorsements {
+      ...EndorsementFragment
+    }
+  }
+}

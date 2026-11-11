@@ -1,0 +1,48 @@
+fragment ReportFragment on Report {
+  id
+  reason
+  additionalDetails
+  reporter {
+    ...ProfileFragment
+    accountStatus
+    riskAssessment {
+      ipAddress
+      userAgent
+      ipRiskScore
+      minFraudRiskScore
+      location {
+        city
+        cityConfidence
+        country
+        countryConfidence
+      }
+    }
+    isZealot
+    isGreenlight
+    isAdmin
+    reportId
+    loginMethods
+  }
+  reportedUser {
+    ...ProfileFragment
+    accountStatus
+    riskAssessment {
+      ipAddress
+      userAgent
+      ipRiskScore
+      minFraudRiskScore
+      location {
+        city
+        cityConfidence
+        country
+        countryConfidence
+      }
+    }
+    isZealot
+    isGreenlight
+    isAdmin
+    reportId
+    loginMethods
+  }
+  createdAt
+}

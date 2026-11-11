@@ -1,0 +1,149 @@
+@mixin shabbat-button($textColor) {
+  color: $textColor !important;
+  border-radius: 25px !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  font-family: $bodyFont !important;
+  padding: 0.25rem 1rem !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  &.btn-sm {
+    font-size: 0.9rem !important;
+    padding: 0.25rem 0.75rem !important;
+  }
+
+  &.btn-xl {
+    font-size: 1.2rem !important;
+    padding: 0.25rem 4rem !important;
+  }
+}
+
+@mixin shabbat-alert-button($textColor) {
+  font-weight: normal !important;
+  font-size: 0.8rem !important;
+  color: $textColor !important;
+  border-radius: 25px !important;
+  line-height: 1 !important;
+  padding: 0.3rem 0.75rem !important;
+  display: inline-flex !important;
+  align-items: center !important;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($textColor, 10%) !important;
+  }
+}
+
+.btn-primary {
+  @include button-variant($colorRed, $colorRed, #fff);
+  @include shabbat-button(#fff);
+
+  background: $colorRed !important;
+  border-color: $colorRed !important;
+
+  &:hover:not(:disabled),
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    color: #fff !important;
+    opacity: 0.9 !important;
+  }
+
+  &:disabled {
+    color: #fff !important;
+    opacity: 0.8 !important;
+  }
+}
+
+.nav-item-primary {
+  .nav-link {
+    color: #fff !important;
+    background: $colorRed;
+    font-family: $bodyFont;
+    border-radius: 5px;
+    transition: opacity 0.1s;
+  }
+
+  &:hover,
+  &:active {
+    .nav-link {
+      color: #fff !important;
+      background: $colorRed !important;
+      opacity: 0.8;
+    }
+  }
+}
+
+.btn-secondary {
+  @include button-variant(transparent, $colorGrey, $colorGrey);
+  @include shabbat-button($colorGrey);
+
+  background: transparent !important;
+  border-color: $colorGrey !important;
+
+  &:hover:not(:disabled),
+  &:focus:not(:disabled),
+  &:active:not(:disabled) {
+    color: darken($colorGrey, 10%) !important;
+    background-color: rgba(255, 255, 255, 0.1) !important;
+  }
+
+  &:disabled {
+    color: lighten($colorGrey, 10%) !important;
+  }
+}
+
+.btn-green {
+  @include button-variant($colorActiveGreen, $colorActiveGreen, #fff);
+  @include shabbat-button(#fff);
+
+  background: $colorActiveGreen !important;
+  border-color: $colorActiveGreen !important;
+}
+
+.btn-link {
+  @include button-variant(transparent, transparent, $colorGrey);
+  @include shabbat-button($colorGrey);
+
+  background: transparent !important;
+  border-color: transparent !important;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($colorGrey, 10%) !important;
+  }
+  text-decoration: underline !important;
+}
+
+.btn-alert-primary {
+  @include button-variant(transparent, #67c23a, #67c23a);
+  @include shabbat-alert-button(#67c23a);
+
+  background: transparent !important;
+  border-color: #67c23a !important;
+}
+
+.btn-alert-secondary {
+  @include button-variant(transparent, $colorGrey, $colorGrey);
+  @include shabbat-alert-button($colorGrey);
+
+  background: transparent !important;
+  border-color: $colorGrey !important;
+}
+
+.btn-alert-link {
+  @include button-variant(transparent, $colorGrey, $colorGrey);
+  @include shabbat-alert-button($colorGrey);
+
+  background: transparent !important;
+  border-color: $colorGrey !important;
+  border: none !important;
+  padding-left: 0 !important;
+
+  &:hover {
+    text-decoration: underline !important;
+  }
+}

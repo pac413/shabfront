@@ -1,0 +1,5 @@
+query guestListVisibility($profileId: ID!) {
+  guestListVisibility(profileId: $profileId) {
+    visible
+  }
+}

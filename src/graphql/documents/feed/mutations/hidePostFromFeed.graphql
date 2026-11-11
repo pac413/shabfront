@@ -1,0 +1,5 @@
+mutation hidePostFromFeed($input: HidePostFromFeedInput!) {
+  hidePostFromFeed(input: $input) {
+    id
+  }
+}

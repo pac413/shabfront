@@ -1,0 +1,7 @@
+fragment ProfileViewFragment on ProfileView {
+  id
+  viewer {
+    ...SimpleProfileFragment
+  }
+  lastVisited
+}

@@ -1,0 +1,8 @@
+query followersV2($profileId: ID, $offset: Int, $limit: Int) {
+  followersV2(input: { profileId: $profileId, offset: $offset, limit: $limit }) {
+    profiles {
+      ...FriendProfileFragment
+    }
+    total
+  }
+}

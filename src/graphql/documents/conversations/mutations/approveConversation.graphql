@@ -1,0 +1,5 @@
+mutation approveConversation($conversationId: ID!) {
+  approveConversation(input: { conversationId: $conversationId }) {
+    ...ConversationFragment
+  }
+}

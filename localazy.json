@@ -1,0 +1,10 @@
+{
+  "upload": {  
+    "type": "json",
+    "files": "src/locales/en.json",
+    "deprecate": "file"
+  },
+  "download": {
+    "files": "src/locales/${lang}.json"
+  }
+}

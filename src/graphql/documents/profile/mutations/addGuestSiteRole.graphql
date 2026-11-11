@@ -1,0 +1,10 @@
+mutation addGuestSiteRole($profileId: ID) {
+  addGuestSiteRole(input: { id: $profileId }) {
+    error {
+      message
+    }
+    profile {
+      ...ProfileFragment
+    }
+  }
+}

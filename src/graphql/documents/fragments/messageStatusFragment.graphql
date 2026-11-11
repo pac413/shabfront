@@ -1,0 +1,5 @@
+fragment MessageStatusFragment on MessageStatusDetails {
+  status
+  dateSent
+  dateRead
+}

@@ -1,0 +1,14 @@
+mutation toggleAdmin(
+  $profileId: ID!
+  $value: Boolean
+) {
+  toggleAdmin (input: {
+    profileId: $profileId
+    value: $value
+  }) {
+    success
+    profile {
+      ...adminRecentMemberFragment
+    }
+  }
+}

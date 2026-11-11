@@ -1,0 +1,29 @@
+fragment FeedItemFragment on FeedItem {
+  id
+  content
+  postType
+  commentsCount
+  viewsCount
+  likesCount
+  likedByProfile
+  latestComments {
+   ...PostCommentFragment
+  }
+  latestLikes {
+    ...PostLikeFragment
+  }
+  medias {
+    ...MediaFragment
+  }
+  postedDate
+  lastActivityAt
+  postedBy {
+    ...SimpleProfileFragment
+  }
+  shared
+  readonly
+  webScraped {
+    ...WebScrapedPostFragment
+  }
+  privacySetting
+}

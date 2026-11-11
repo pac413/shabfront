@@ -1,0 +1,14 @@
+mutation deleteMember(
+  $profileId: ID!,
+  $suspend: Boolean
+) {
+  deleteMember (input: {
+    profileId: $profileId
+    suspend: $suspend
+  }) {
+    success
+    profile {
+      ...adminRecentMemberFragment
+    }
+  }
+}

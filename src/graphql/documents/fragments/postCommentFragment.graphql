@@ -1,0 +1,24 @@
+fragment PostCommentFragment on PostComment {
+  id
+  content
+  webScraped {
+    ...WebScrapedBasicFragment
+  }
+  commentedBy {
+    ...SimpleProfileFragment
+  }
+  commentLikes {
+    ...PostLikeFragment
+  }
+  commentLikesCount
+  medias {
+    ...MediaFragment
+  }
+  replies {
+    ...PostCommentReplyFragment
+  }
+  repliesCount
+  likedByProfile
+  postId
+  date
+}

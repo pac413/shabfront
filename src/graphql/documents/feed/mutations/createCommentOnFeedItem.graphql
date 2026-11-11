@@ -1,0 +1,9 @@
+mutation createCommentOnFeedItem(
+  $input: CreateCommentOnFeedItemInput!
+) {
+  createCommentOnFeedItem(
+    input: $input
+  ) {
+    ...PostCommentFragment
+  }
+}

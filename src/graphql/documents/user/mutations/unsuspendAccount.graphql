@@ -1,0 +1,12 @@
+mutation unsuspendAccount(
+  $profileId: ID!,
+) {
+  unsuspendAccount(input: {
+    profileId: $profileId
+  }) {
+    success
+    profile {
+      ...adminRecentMemberFragment
+    }
+  }
+}

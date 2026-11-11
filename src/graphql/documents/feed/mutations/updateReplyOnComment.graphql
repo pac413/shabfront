@@ -1,0 +1,5 @@
+mutation updateReplyOnComment($input: UpdateReplyOnCommentInput!) {
+  updateReplyOnComment(input: $input) {
+    ...PostCommentReplyFragment
+  }
+}

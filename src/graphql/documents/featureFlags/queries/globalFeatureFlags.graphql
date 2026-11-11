@@ -1,0 +1,5 @@
+query globalFeatureFlags {
+  globalFeatureFlags {
+    ...FeatureFlagsFragment
+  }
+}

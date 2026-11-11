@@ -1,0 +1,17 @@
+mutation acceptHosting(
+  $id: ID!
+  $parts: [HostingPart]
+  $note: String
+) {
+  acceptHosting(
+    input: {
+      id: $id
+      parts: $parts
+      note: $note
+    }
+  ) {
+    hosting {
+      ...HostingFragment
+    }
+  }
+}

@@ -1,0 +1,8 @@
+query adminMemberRecentMessages($profileId: String!, $limit: Int!) {
+  adminMemberRecentMessages(input: { profileId: $profileId, limit: $limit }) {
+    messages {
+      ...MessageFragment
+    }
+    total
+  }
+}

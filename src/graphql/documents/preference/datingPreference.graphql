@@ -1,0 +1,10 @@
+query datingPreference {
+  profile {
+    profile {
+      id
+      datingPreference {
+        ...PreferenceFragment
+      }
+    }
+  }
+}

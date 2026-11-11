@@ -1,0 +1,30 @@
+query search(
+  $queryBy: QueryFilterBy!,
+  $searchFor: SearchFor!,
+  $filterBy: SearchFilterBy!,
+  $sortBy: SearchSortBy,
+  $name: String,
+  $occupation: String,
+  $location: String,
+  $offset: Int!,
+  $limit: Int!,
+  $language: Language!
+) {
+  search (input: {
+    queryBy: $queryBy
+    searchFor: $searchFor
+    filterBy: $filterBy
+    sortBy: $sortBy
+    name: $name
+    occupation: $occupation
+    location: $location
+    offset: $offset
+    limit: $limit
+    language: $language
+  }) @connection(key: "search", filter: ["queryBy", "searchFor", "filterBy", "sortBy", "name", "occupation", "location", "language"]) {
+    total
+    profiles {
+      ...ProfileFragment
+    }
+  }
+}

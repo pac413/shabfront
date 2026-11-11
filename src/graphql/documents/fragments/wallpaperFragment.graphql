@@ -1,0 +1,6 @@
+fragment WallpaperFragment on Wallpaper {
+  id
+  originalMediaId
+  original
+  isPlaceholder
+}

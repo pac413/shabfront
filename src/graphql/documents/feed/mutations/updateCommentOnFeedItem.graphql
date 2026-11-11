@@ -1,0 +1,5 @@
+mutation updateCommentOnFeedItem($input: UpdateCommentOnFeedItemInput!) {
+  updateCommentOnFeedItem(input: $input) {
+    ...PostCommentFragment
+  }
+}

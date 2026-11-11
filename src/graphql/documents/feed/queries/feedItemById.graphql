@@ -1,0 +1,5 @@
+query feedItemById($id: ID!) {
+  feedItemById(input: { id: $id }) {
+    ...FeedItemFragment
+  }
+}

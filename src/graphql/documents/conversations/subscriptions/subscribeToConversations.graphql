@@ -1,0 +1,7 @@
+subscription subscribeToConversations {
+  subscribeToConversations {
+    conversation {
+      ...ConversationFragment
+    }
+  }
+}

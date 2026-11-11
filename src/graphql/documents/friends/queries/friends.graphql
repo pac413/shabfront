@@ -1,0 +1,11 @@
+query friendsV2($type: FriendsType!, $targetProfileId: String, $orderBy: FriendsOrderBy, $offset: Int!, $limit: Int!) {
+  friendsV2(
+    input: { type: $type, targetProfileId: $targetProfileId, orderBy: $orderBy, offset: $offset, limit: $limit }
+  ) {
+    profiles {
+      ...FriendProfileFragment
+    }
+    totalCount
+    mutualCount
+  }
+}

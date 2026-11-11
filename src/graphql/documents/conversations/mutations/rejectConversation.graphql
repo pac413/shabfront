@@ -1,0 +1,5 @@
+mutation rejectConversation($conversationId: ID!) {
+  rejectConversation(input: { conversationId: $conversationId }) {
+    ...ConversationFragment
+  }
+}

@@ -1,0 +1,10 @@
+mutation deleteEndorsement($id: ID!) {
+  deleteEndorsement( input: {
+    id: $id
+  }) {
+    errors {
+      message
+    }
+    deleted
+  }
+}

@@ -1,0 +1,14 @@
+query profileReferences(
+  $id: ID!,
+  $input: ReferencesInput!
+) {
+  profile (input: {
+    id: $id
+  }) {
+    profile {
+      references(input: $input) {
+        ...ReferenceFragment
+      }
+    }
+  }
+}

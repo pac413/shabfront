@@ -1,0 +1,8 @@
+fragment AvatarFragment on Avatar {
+  id
+  originalMediaId
+  small
+  medium
+  large
+  original
+}

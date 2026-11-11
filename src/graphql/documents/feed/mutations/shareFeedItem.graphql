@@ -1,0 +1,5 @@
+mutation shareFeedItem($input: ShareFeedItemInput!) {
+  shareFeedItem(input: $input) {
+    ...FeedItemFragment
+  }
+}

@@ -1,0 +1,10 @@
+query recentGuests($id: ID!, $limit: Int) {
+  recentGuests(input: {
+    profileId: $id, 
+    limit: $limit
+  }) {
+    profiles {
+      ...ProfileFragment
+    } 
+  }
+}

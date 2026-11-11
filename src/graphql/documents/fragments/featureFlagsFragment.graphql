@@ -1,0 +1,4 @@
+fragment FeatureFlagsFragment on FeatureFlags {
+  postViewEnabled
+  broadcastMessaingEnabled
+}

@@ -1,0 +1,10 @@
+mutation unfollowProfile($profileId: ID!) {
+  unfollowProfileV2(input: { profileId: $profileId }) {
+    ...on Profile {
+      ...ProfileFragment
+    }
+    ...on Error {
+      message
+    }
+  }
+}

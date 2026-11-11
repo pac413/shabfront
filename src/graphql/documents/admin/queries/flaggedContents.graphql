@@ -1,0 +1,14 @@
+query flaggedContents(
+  $offset: Int!
+  $limit: Int!
+) {
+  flaggedContents (input: {
+    offset: $offset
+    limit: $limit
+  }) {
+    contents {
+      ...FlaggedContentFragment
+    }
+    total
+  }
+}

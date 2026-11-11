@@ -1,0 +1,8 @@
+query conversations($offset: Int!, $limit: Int!, $search: String) {
+  conversations(input: { offset: $offset, limit: $limit, search: $search }) {
+    total
+    conversations {
+      ...ConversationFragment
+    }
+  }
+}

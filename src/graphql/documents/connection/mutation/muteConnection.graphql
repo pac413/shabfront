@@ -1,0 +1,3 @@
+mutation muteConnection($input: MuteConnectionInput!) {
+  muteConnection(input: $input)
+}

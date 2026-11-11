@@ -1,0 +1,11 @@
+fragment WebScrapedBasicFragment on WebScrapedBasic {
+  canonical
+  url
+  site
+  title
+  thumbnails {
+    href
+    height
+    width
+  }
+}

@@ -1,0 +1,19 @@
+fragment HostingFragment on Hosting {
+  id
+  host {
+    ...SimpleProfileFragment
+  }
+  guest {
+    ...SimpleProfileFragment
+  }
+  status
+  type
+  date
+  sharedParts
+  guestParts
+  hostParts
+  notes {
+    sender
+    body
+  }
+}

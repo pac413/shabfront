@@ -1,0 +1,11 @@
+mutation createMessageReaction($input: CreateMessageReactionInput!) {
+    createMessageReaction(input: $input) {
+      ...on MessageReaction {
+        ...MessageReactionFragment
+      }
+      ...on CreateMessageReactionFailure {
+        code
+        message
+      }
+    }
+  }

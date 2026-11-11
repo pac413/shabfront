@@ -1,0 +1,13 @@
+@import './index';
+
+:export {
+  mobileSmallMaxWidth: $mobileSmallMaxWidth;
+  mobileMaxWidth: $mobileMaxWidth;
+  tabletMaxWidth: $tabletMaxWidth;
+
+  colorRed: $colorRed;
+  colorSecondary: $colorSecondary;
+  colorText: $colorText;
+  colorGrey: $colorGrey;
+  colorStickyText: $colorStickyText;
+}

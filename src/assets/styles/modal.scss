@@ -1,0 +1,101 @@
+.modal.show {
+  display: block;
+  z-index: 1090;
+}
+
+.modal.show .modal-dialog {
+  z-index: 1090;
+}
+
+.modal-content {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+}
+
+.modal-header {
+  color: $colorModalTitle;
+  padding: 1em 1.5em;
+  align-items: center;
+
+  .modal-title {
+    flex: 1;
+    font-family: $headerFont, Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  .close {
+    padding: 0;
+    margin: 0;
+    color: $colorModalTitle;
+    background-color: transparent;
+    border: 0;
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+}
+
+.modal-body {
+  padding: 1.5em 1.5em 0.5em;
+
+  .error-details {
+    text-align: center;
+  }
+}
+
+.modal-footer {
+  border-top: none;
+  justify-content: center;
+  padding: 1em 1.5em;
+}
+
+.modal-footer.shadow-footer {
+  box-shadow: -2px -2px 15px rgba(0, 0, 0, 0.2);
+}
+
+.rtl-at-root {
+  .modal-header {
+    text-align: right;
+  }
+
+  .modal-body {
+    width: 100%;
+    text-align: right;
+  }
+}
+
+.shabbat-sm-modal {
+  min-width: 400px;
+
+  .modal-sm,
+  .modal-md {
+    max-width: 400px;
+  }
+
+  .modal-content {
+    min-height: 300px;
+    display: flex;
+  }
+
+  .modal-body {
+    text-align: center;
+    align-self: center;
+    max-width: 275px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1em 0;
+  }
+
+  .modal-footer {
+    padding: 1.5em 0 0;
+  }
+}

@@ -1,0 +1,12 @@
+query flaggedContentsByProfile(
+  $profileId: ID!
+) {
+  flaggedContentsByProfile (input: {
+    profileId: $profileId
+  }) {
+    contents {
+      ...FlaggedContentFragment
+    }
+    total
+  }
+}

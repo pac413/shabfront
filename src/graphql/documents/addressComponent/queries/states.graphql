@@ -1,0 +1,10 @@
+query states($countryId: String!) {
+  states(input: {
+    countryId: $countryId
+  }) {
+    states {
+      id
+      name
+    }
+  }
+}

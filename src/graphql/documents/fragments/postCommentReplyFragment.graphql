@@ -1,0 +1,18 @@
+fragment PostCommentReplyFragment on PostCommentReply {
+  id
+  content
+  commentId
+  postId
+  likedByProfile
+  commentedBy {
+    ...SimpleProfileFragment
+  }
+  commentLikes {
+    ...PostLikeFragment
+  }
+  commentLikesCount
+  medias {
+    ...MediaFragment
+  }
+  date
+}

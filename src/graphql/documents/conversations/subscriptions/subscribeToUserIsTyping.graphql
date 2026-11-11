@@ -1,0 +1,7 @@
+subscription subscribeToUserIsTyping {
+  subscribeToUserIsTyping {
+    conversationId
+    profileId
+    mediaType
+  }
+}

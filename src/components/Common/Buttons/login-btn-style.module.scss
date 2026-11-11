@@ -1,0 +1,12 @@
+.btn-login {
+  border-radius: 25px;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  box-shadow: 1px 1px 1px rgba(204, 204, 204, 0.7);
+  transition: .3s;
+
+  &:hover {
+    box-shadow: 1px 1px 3px rgba(204, 204, 204, 0.9);
+  }
+} 

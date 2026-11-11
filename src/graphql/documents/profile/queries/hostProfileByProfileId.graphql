@@ -1,0 +1,12 @@
+query hostProfileByProfileId($id: ID) {
+  profile(input: { id: $id }) {
+    profile {
+      hostProfile {
+        ...HostProfileFragment
+      }
+    }
+    errors {
+      message
+    }
+  }
+}

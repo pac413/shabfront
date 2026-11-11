@@ -1,0 +1,19 @@
+fragment FriendProfileFragment on SimpleProfile {
+  id
+  avatar {
+    ...AvatarFragment
+  }
+  firstName
+  lastName
+  displayName
+  profileUrl
+  handle
+  isBlocked
+  isBlocking
+  isFollowing
+  uncuratedOccupation
+  about
+  friendship {
+    ...FriendshipFragment
+  }
+}

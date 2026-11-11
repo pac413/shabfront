@@ -1,0 +1,9 @@
+query hostAvailability($id: ID!, $date: Date) {
+  hostAvailability (input: { profileId: $id, date: $date }) {
+    availability {
+      date
+      status
+      reserveBy
+    }
+  }
+}

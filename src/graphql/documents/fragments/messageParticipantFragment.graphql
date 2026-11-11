@@ -1,0 +1,6 @@
+fragment MessageParticipantFragment on ConversationParticipant {
+  profile {
+    ...SimpleProfileFragment
+  }
+  status
+}

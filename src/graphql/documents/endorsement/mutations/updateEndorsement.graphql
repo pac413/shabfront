@@ -1,0 +1,10 @@
+mutation updateEndorsement($id: ID!, $body: String!) {
+  updateEndorsement( input: {
+    id: $id
+    body: $body
+  }) {
+    endorsement{
+      ...EndorsementFragment
+    }
+  }
+}

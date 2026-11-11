@@ -1,0 +1,6 @@
+query occupations($language: Language!) {
+  occupations(lang: $language) {
+    id
+    name
+  }
+}

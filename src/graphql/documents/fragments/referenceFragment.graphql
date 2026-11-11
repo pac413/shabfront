@@ -1,0 +1,10 @@
+fragment ReferenceFragment on Reference {
+  id
+  name
+  siteRole
+
+  # Admin / Self information
+  phone
+  email
+  relationship
+}

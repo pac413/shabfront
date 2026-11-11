@@ -1,0 +1,5 @@
+fragment FriendshipFragment on Friendship {
+  id
+  status
+  requester
+}

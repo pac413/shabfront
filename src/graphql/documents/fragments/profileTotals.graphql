@@ -1,0 +1,5 @@
+fragment ProfileTotals on ProfileTotals {
+  invites
+  views
+  connections
+}

@@ -1,0 +1,10 @@
+query searchPreference {
+  profile {
+    profile {
+      id
+      searchPreference {
+        ...PreferenceFragment
+      }
+    }
+  }
+}

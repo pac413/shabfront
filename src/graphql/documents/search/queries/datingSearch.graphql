@@ -1,0 +1,11 @@
+query datingSearch($filterBy: DatingSearchFilterBy!, $offset: Int!, $limit: Int!) {
+  datingSearch( input: {
+    filterBy: $filterBy
+    offset: $offset
+    limit: $limit
+  }) @connection(key: "datingSearch", filter: ["filterBy"]) {
+    profiles {
+      ...ProfileFragment
+    }
+  }
+}

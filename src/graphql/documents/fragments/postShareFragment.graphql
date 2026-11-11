@@ -1,0 +1,5 @@
+fragment PostShareFragment on PostShare {
+  sharedTo
+  sharedPostId
+  sharedFeedItemId
+}

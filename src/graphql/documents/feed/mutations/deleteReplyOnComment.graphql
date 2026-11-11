@@ -1,0 +1,6 @@
+mutation deleteReplyOnComment($input: DeleteReplyOnCommentInput!) {
+  deleteReplyOnComment(input: $input) {
+    postId
+    commentId
+  }
+}

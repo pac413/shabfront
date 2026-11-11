@@ -1,0 +1,5 @@
+query commentById($postId: ID!, $commentId: ID!) {
+  commentById(input: { postId: $postId, commentId: $commentId }) {
+    ...PostCommentFragment
+  }
+}

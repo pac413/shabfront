@@ -1,0 +1,8 @@
+query adminTotals {
+  adminTotals {
+    totalActiveLastSixMonths
+    totalActiveLastYear
+    totalActiveSinceCovid
+    totalUsers
+  }
+}

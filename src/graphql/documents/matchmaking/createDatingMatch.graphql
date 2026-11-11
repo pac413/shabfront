@@ -1,0 +1,17 @@
+mutation createDatingMatch(
+  $guy: ID!, 
+  $girl: ID!, 
+  $message: String!, 
+  $party: MatchParty!
+) {
+  createDatingMatch( input: {
+    guy: $guy
+    girl: $girl
+    message: $message
+    party: $party
+  }) {
+    datingMatch {
+      id
+    }
+  }
+}

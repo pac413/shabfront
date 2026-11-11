@@ -1,0 +1,9 @@
+fragment RequestProfileFragment on SimpleProfile {
+  id
+  handle
+  avatar {
+    ...AvatarFragment
+  }
+  firstName
+  lastName
+}

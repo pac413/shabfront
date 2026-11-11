@@ -1,0 +1,10 @@
+query recentHosts($id: ID!, $limit: Int) {
+  recentHosts(input:{
+    profileId: $id, 
+    limit: $limit
+  }) {
+    profiles{
+      ...ProfileFragment
+    } 
+  }
+}

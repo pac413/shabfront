@@ -1,0 +1,21 @@
+.checkbox-red {
+  cursor: pointer;
+
+  :deep(.custom-control-label::after) {
+    cursor: pointer;
+  }
+
+  :deep(.custom-control-input:checked) ~ .custom-control-label::before {
+    background-color: $colorRed;
+    border-color: $colorRed;
+  }
+
+  :deep(.custom-control-input:not(:disabled):active) ~ .custom-control-label::before {
+    border-color: $colorRed;
+    background-color: transparent;
+  }
+
+  :deep(.custom-control-input:focus) ~ .custom-control-label::before {
+    box-shadow: 0 0 0 0.2rem transparent;
+  }
+}

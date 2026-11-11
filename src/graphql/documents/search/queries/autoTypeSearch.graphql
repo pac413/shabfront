@@ -1,0 +1,22 @@
+query autoTypeSearch(
+  $keyword: String!,
+  $language: Language!,
+  $searchBy: AutoTypeSearchBy!,
+  $limit: Int!
+  $searchFor: SearchFor
+) {
+  autoTypeSearch(input: {
+    keyword: $keyword,
+    language: $language,
+    searchBy: $searchBy,
+    limit: $limit
+    searchFor: $searchFor
+  }) {
+    profiles {
+      ...SimpleProfileFragment
+    }
+    occupations {
+      ...OccupationFragment
+    }
+  }
+}
